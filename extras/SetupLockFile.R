@@ -41,11 +41,18 @@ updatedPackages <- list(
     Source = "Repository",
     Repository = "CRAN"
   ),
+  list(
+    Package = "SqlRender",
+    Version = "1.18.0",
+    Source = "Repository",
+    Repository = "CRAN"
+  ),
   "OHDSI/Characterization@v0.2.0",
   "OHDSI/CohortGenerator@v0.10.0",
   "OHDSI/CohortIncidence@v3.3.1",
   "OHDSI/CohortMethod@v5.3.0",
   "OHDSI/SelfControlledCaseSeries@v5.2.2",
-  "OHDSI/ResultModelManager@v0.5.8"
+  "OHDSI/ResultModelManager@v0.5.8",
+  "OHDSI/Strategus@4b90144536941c290b75f6e81ac1ec0d44a9738c"
 )
 renv::record(updatedPackages)

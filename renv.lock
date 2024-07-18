@@ -179,9 +179,20 @@
     },
     "SqlRender": {
       "Package": "SqlRender",
-      "Version": "1.16.1",
+      "Version": "1.18.0",
       "Source": "Repository",
       "Repository": "CRAN"
+    },
+    "Strategus": {
+      "Package": "Strategus",
+      "Version": "1.0.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "OHDSI",
+      "RemoteRepo": "Strategus",
+      "RemoteRef": "4b90144536941c290b75f6e81ac1ec0d44a9738c",
+      "RemoteSha": "4b90144536941c290b75f6e81ac1ec0d44a9738c"
     },
     "askpass": {
       "Package": "askpass",
