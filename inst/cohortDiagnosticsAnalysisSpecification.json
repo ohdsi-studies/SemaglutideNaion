@@ -168,10 +168,10 @@
     {
       "module": "CohortDiagnosticsModule",
       "settings": {
-        "cohortIds": [17793, 17796, 17797, 17803, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17795, 17760, 17761, 17706, 17815, 17788],
-        "runInclusionStatistics": true,
+        "cohortIds": [17760, 17761, 17706, 17815, 17788],
+        "runInclusionStatistics": false,
         "runIncludedSourceConcepts": true,
-        "runOrphanConcepts": true,
+        "runOrphanConcepts": false,
         "runTimeSeries": false,
         "runVisitContext": true,
         "runBreakdownIndexEvents": true,

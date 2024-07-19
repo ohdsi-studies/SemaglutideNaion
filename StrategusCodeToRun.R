@@ -30,12 +30,14 @@ connectionDetails = DatabaseConnector::createConnectionDetails(
 )
 
 ##=========== END OF INPUTS ==========
-##################################
-# DO NOT MODIFY BELOW THIS POINT
-##################################
 analysisSpecifications <- ParallelLogger::loadSettingsFromJson(
-  fileName = "inst/analysisSpecification.json"
+  fileName = "inst/fullStudyAnalysisSpecification.json"
 )
+
+# UNCOMMENT TO RUN COHORT DIAGNOSTICS
+# analysisSpecifications <- ParallelLogger::loadSettingsFromJson(
+#   fileName = "inst/cohortDiagnosticsAnalysisSpecification.json"
+# )
 
 executionSettings <- Strategus::createCdmExecutionSettings(
   workDatabaseSchema = workDatabaseSchema,

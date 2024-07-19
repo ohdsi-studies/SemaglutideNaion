@@ -12,6 +12,10 @@ timeAtRisks <- tibble(
 )
 studyStartDate <- '20171201' #YYYYMMDD
 studyEndDate <- '20231231'   #YYYYMMDD
+# This is lame but has to be done
+studyStartDateWithHyphens <- '2017-12-01' #YYYYMMDD
+studyEndDateWithHyphens <- '2023-12-31'   #YYYYMMDD
+
 
 # Probably don't change below this line ----------------------------------------
 
@@ -22,6 +26,14 @@ psMatchMaxRatio <- 1 # If bigger than 1, the outcome model will be conditioned o
 
 
 # Shared Resources -------------------------------------------------------------
+# Get the design assets
+cmTcList <- CohortGenerator::readCsv("inst/cmTcList.csv")
+sccsTList <- CohortGenerator::readCsv("inst/sccsTList.csv")
+sccsIList <- CohortGenerator::readCsv("inst/sccsIList.csv")
+oList <- CohortGenerator::readCsv("inst/oList.csv")
+ncoList <- CohortGenerator::readCsv("inst/negativeControlOutcomes.csv")
+excludedCovariateConcepts <- CohortGenerator::readCsv("inst/excludedCovariateConcepts.csv")
+
 # Get the list of cohorts
 cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
   settingsFileName = "inst/Cohorts.csv",
@@ -31,13 +43,20 @@ cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
   cohortFileNameValue = c("cohortId", "cohortName")
 )
 
-# Get the design assets
-cmTcList <- CohortGenerator::readCsv("inst/cmTcList.csv")
-sccsTList <- CohortGenerator::readCsv("inst/sccsTList.csv")
-sccsIList <- CohortGenerator::readCsv("inst/sccsIList.csv")
-oList <- CohortGenerator::readCsv("inst/oList.csv")
-ncoList <- CohortGenerator::readCsv("inst/negativeControlOutcomes.csv")
-excludedCovariateConcepts <- CohortGenerator::readCsv("inst/excludedCovariateConcepts.csv")
+subset1 <- CohortGenerator::createCohortSubsetDefinition(
+  name = "Calendar limit",
+  definitionId = 1,
+  subsetOperators = list(
+    CohortGenerator::createLimitSubset(
+      calendarStartDate = studyStartDateWithHyphens,
+      calendarEndDate = studyEndDateWithHyphens
+    )
+  )
+)
+
+subsetTargetCohortIds <- unique(c(cmTcList$targetCohortId, cmTcList$comparatorCohortId))
+cohortDefinitionSet <- cohortDefinitionSet |>
+  CohortGenerator::addCohortSubsetDefinition(subset1, targetCohortIds = subsetTargetCohortIds)
 
 negativeControlOutcomeCohortSet <- ncoList %>%
   rename(cohortName = "conceptname",
@@ -78,7 +97,8 @@ characterizationModuleSpecifications <- cModuleSettingsCreator$createModuleSpeci
 # CohortIncidenceModule --------------------------------------------------------
 ciModuleSettingsCreator <- CohortIncidenceModule$new()
 tciIds <- cohortDefinitionSet %>%
-  filter(!cohortId %in% oList$outcomeCohortId) %>%
+  filter(!cohortId %in% oList$outcomeCohortId & !isSubset) %>%
+  filter(!cohortId %in% sccsTList$targetCohortId) %>%
   pull(cohortId)
 targetList <- lapply(
   tciIds,
@@ -115,12 +135,17 @@ analysis1 <- CohortIncidence::createIncidenceAnalysis(
   outcomes = seq_len(nrow(oList)),
   tars = seq_along(tars)
 )
+irStudyWindow <- CohortIncidence::createDateRange(
+  startDate = studyStartDateWithHyphens,
+  endDate = studyEndDateWithHyphens
+)
 # NOTE: Do we want 10 year age breaks?
 irDesign <- CohortIncidence::createIncidenceDesign(
   targetDefs = targetList,
   outcomeDefs = outcomeList,
   tars = tars,
   analysisList = list(analysis1),
+  studyWindow = irStudyWindow,
   strataSettings = CohortIncidence::createStrataSettings(
     byYear = TRUE,
     byGender = TRUE,
@@ -401,7 +426,7 @@ selfControlledModuleSpecifications <- sccsModuleSettingsCreator$createModuleSpec
   exposuresOutcomeList = eoList,
   combineDataFetchAcrossOutcomes = FALSE,
   sccsDiagnosticThresholds = SelfControlledCaseSeries::createSccsDiagnosticThresholds(
-    mdrrThreshold = 10,
+    mdrrThreshold = Inf,
     easeThreshold = 0.25,
     timeTrendPThreshold = 0.05,
     preExposurePThreshold = 0.05
@@ -421,4 +446,4 @@ analysisSpecifications <- Strategus::createEmptyAnalysisSpecificiations() |>
 if (!dir.exists(rootFolder)) {
   dir.create(rootFolder, recursive = TRUE)
 }
-ParallelLogger::saveSettingsToJson(analysisSpecifications, file.path(rootFolder, "inst/analysisSpecification.json"))
+ParallelLogger::saveSettingsToJson(analysisSpecifications, file.path(rootFolder, "inst/fullStudyAnalysisSpecification.json"))

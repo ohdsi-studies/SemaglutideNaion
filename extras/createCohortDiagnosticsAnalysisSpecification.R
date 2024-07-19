@@ -12,7 +12,7 @@ cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
   cohortFileNameFormat = "%s_%s",
   cohortFileNameValue = c("cohortId", "cohortName")
 )
-sccsTList <- CohortGenerator::readCsv("inst/sccsTList.csv")
+oList <- CohortGenerator::readCsv("inst/oList.csv")
 
 # CohortGeneratorModule --------------------------------------------------------
 cgModuleSettingsCreator <- CohortGeneratorModule$new()
@@ -22,25 +22,13 @@ cohortGeneratorModuleSpecifications <- cgModuleSettingsCreator$createModuleSpeci
   generateStats = TRUE
 )
 
-# Exclude some cohorts from the diagnostics
-cohortsToExclude <- c(
-  17809, # sema Dec2017-Jan2020
-  17810, # sema Feb2020-Jun2021
-  17811, # sema Jul2021-Dec2023
-  17812, # empa Dec2017-Jan2020
-  17813, # empa Feb2020-Jun2021
-  17814, # empa Jul2021-Dec2023
-  sccsTList$targetCohortId
-)
-cdCohortIds <- setdiff(cohortDefinitionSet$cohortId, cohortsToExclude)
-
 # Cohort Diagnostics -----------------
 cdModuleSettingsCreator <- CohortDiagnosticsModule$new()
 cdModuleSpecifications <- cdModuleSettingsCreator$createModuleSpecifications(
-  cohortIds = cdCohortIds,
-  runInclusionStatistics = TRUE,
+  cohortIds = oList$outcomeCohortId,
+  runInclusionStatistics = FALSE,
   runIncludedSourceConcepts = TRUE,
-  runOrphanConcepts = TRUE,
+  runOrphanConcepts = FALSE,
   runTimeSeries = FALSE,
   runVisitContext = TRUE,
   runBreakdownIndexEvents = TRUE,

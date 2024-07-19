@@ -153,6 +153,101 @@
           "cohortDefinition": "{\r\n\t\"cdmVersionRange\" : \">=5.0.0\",\r\n\t\"PrimaryCriteria\" : {\r\n\t\t\"CriteriaList\" : [\r\n\t\t\t{\r\n\t\t\t\t\"DrugExposure\" : {\r\n\t\t\t\t\t\"CodesetId\" : 1,\r\n\t\t\t\t\t\"DrugTypeExclude\" : false\r\n\t\t\t\t}\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"ProcedureOccurrence\" : {\r\n\t\t\t\t\t\"CodesetId\" : 6,\r\n\t\t\t\t\t\"ProcedureTypeExclude\" : false\r\n\t\t\t\t}\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"ProcedureOccurrence\" : {\r\n\t\t\t\t\t\"CodesetId\" : 7,\r\n\t\t\t\t\t\"ProcedureTypeExclude\" : false\r\n\t\t\t\t}\r\n\t\t\t},\r\n\t\t\t{\r\n\t\t\t\t\"ProcedureOccurrence\" : {\r\n\t\t\t\t\t\"CodesetId\" : 8,\r\n\t\t\t\t\t\"ProcedureTypeExclude\" : false\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t],\r\n\t\t\"ObservationWindow\" : {\r\n\t\t\t\"PriorDays\" : 0,\r\n\t\t\t\"PostDays\" : 0\r\n\t\t},\r\n\t\t\"PrimaryCriteriaLimit\" : {\r\n\t\t\t\"Type\" : \"First\"\r\n\t\t}\r\n\t},\r\n\t\"ConceptSets\" : [\r\n\t\t{\r\n\t\t\t\"id\" : 0,\r\n\t\t\t\"name\" : \"Proliferative diabetic retinopathy\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 380096,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Proliferative retinopathy due to diabetes mellitus\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"59276001\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Disorder\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 45763584,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Proliferative retinopathy due to type 1 diabetes mellitus\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"60971000119101\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Disorder\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : true,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\" : 1,\r\n\t\t\t\"name\" : \"aflibercept ranibizumab and bevacizumab\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 40244266,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"aflibercept\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"1232150\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Drug\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"RxNorm\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Ingredient\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 1397141,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"bevacizumab\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"253337\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Drug\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"RxNorm\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Ingredient\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 19080982,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"ranibizumab\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"595060\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Drug\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"RxNorm\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Ingredient\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\" : 2,\r\n\t\t\t\"name\" : \"Diabetic retinopathy\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4174977,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Retinopathy due to diabetes mellitus\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"4855003\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Disorder\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\" : 3,\r\n\t\t\t\"name\" : \"Macular edema\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4290333,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Macular retinal edema\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"37231002\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Clinical Finding\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4208200,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Postoperative cystoid macular edema\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"312920004\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Clinical Finding\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : true,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\" : 4,\r\n\t\t\t\"name\" : \"Age-related macular degeneration\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 374028,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Age related macular degeneration\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"267718000\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Clinical Finding\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4224741,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Degenerative disorder of macula\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"422338006\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Clinical Finding\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : false,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\" : 5,\r\n\t\t\t\"name\" : \"Renal vein occlusion\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 440392,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Retinal vascular occlusion\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"73757007\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Clinical Finding\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4334245,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Retinal artery occlusion\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"232035005\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Clinical Finding\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : true,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 437544,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Arterial retinal branch occlusion\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"50821009\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Clinical Finding\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : true,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4338905,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Cilioretinal artery occlusion\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"232036006\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Condition\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Clinical Finding\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : true,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\" : 6,\r\n\t\t\t\"name\" : \"focal laser photocoagulation\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4219449,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Focal laser photocoagulation of retina\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"397538008\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Procedure\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 2111048,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Destruction of localized lesion of retina (eg, macular edema, tumors), 1 or more sessions; photocoagulation\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"67210\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"CPT4\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"CPT4\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\" : 7,\r\n\t\t\t\"name\" : \"panretinal photocoagulation\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 2111054,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Treatment of extensive or progressive retinopathy (eg, diabetic retinopathy), photocoagulation\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"67228\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"CPT4\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"CPT4\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4162096,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Laser photocoagulation to retina\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"399867007\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Procedure\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4013503,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Repair of retina for retinal tear or defect by laser photocoagulation\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"112969004\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Procedure\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : true,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4309528,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Repair of retinal detachment by laser photocoagulation\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"85231002\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Procedure\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : true,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\" : 8,\r\n\t\t\t\"name\" : \"Mechanical vitrectomy\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"items\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4314406,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Mechanical vitrectomy by pars plana approach\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"87021001\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Procedure\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 4246506,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Mechanical vitrectomy\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"60177007\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"SNOMED\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"Procedure\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 45889738,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Vitrectomy, mechanical, pars plana approach\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"C\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Classification\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"1014238\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"CPT4\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"CPT4 Hierarchy\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : false,\r\n\t\t\t\t\t\t\"includeDescendants\" : true,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"concept\" : {\r\n\t\t\t\t\t\t\t\"CONCEPT_ID\" : 2111009,\r\n\t\t\t\t\t\t\t\"CONCEPT_NAME\" : \"Removal of lens material; pars plana approach, with or without vitrectomy\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT\" : \"S\",\r\n\t\t\t\t\t\t\t\"STANDARD_CONCEPT_CAPTION\" : \"Standard\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON\" : \"V\",\r\n\t\t\t\t\t\t\t\"INVALID_REASON_CAPTION\" : \"Valid\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CODE\" : \"66852\",\r\n\t\t\t\t\t\t\t\"DOMAIN_ID\" : \"Procedure\",\r\n\t\t\t\t\t\t\t\"VOCABULARY_ID\" : \"CPT4\",\r\n\t\t\t\t\t\t\t\"CONCEPT_CLASS_ID\" : \"CPT4\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"isExcluded\" : true,\r\n\t\t\t\t\t\t\"includeDescendants\" : false,\r\n\t\t\t\t\t\t\"includeMapped\" : false\r\n\t\t\t\t\t}\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t}\r\n\t],\r\n\t\"QualifiedLimit\" : {\r\n\t\t\"Type\" : \"First\"\r\n\t},\r\n\t\"ExpressionLimit\" : {\r\n\t\t\"Type\" : \"First\"\r\n\t},\r\n\t\"InclusionRules\" : [\r\n\t\t{\r\n\t\t\t\"name\" : \"has DR or ME on or within 90d of treatment\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"Type\" : \"ANY\",\r\n\t\t\t\t\"CriteriaList\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"Criteria\" : {\r\n\t\t\t\t\t\t\t\"ConditionOccurrence\" : {\r\n\t\t\t\t\t\t\t\t\"CodesetId\" : 2\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"StartWindow\" : {\r\n\t\t\t\t\t\t\t\"Start\" : {\r\n\t\t\t\t\t\t\t\t\"Days\" : 90,\r\n\t\t\t\t\t\t\t\t\"Coeff\" : -1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"End\" : {\r\n\t\t\t\t\t\t\t\t\"Days\" : 0,\r\n\t\t\t\t\t\t\t\t\"Coeff\" : 1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"UseIndexEnd\" : false,\r\n\t\t\t\t\t\t\t\"UseEventEnd\" : false\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"RestrictVisit\" : false,\r\n\t\t\t\t\t\t\"IgnoreObservationPeriod\" : false,\r\n\t\t\t\t\t\t\"Occurrence\" : {\r\n\t\t\t\t\t\t\t\"Type\" : 2,\r\n\t\t\t\t\t\t\t\"Count\" : 1,\r\n\t\t\t\t\t\t\t\"IsDistinct\" : false\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"Criteria\" : {\r\n\t\t\t\t\t\t\t\"ConditionOccurrence\" : {\r\n\t\t\t\t\t\t\t\t\"CodesetId\" : 3\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"StartWindow\" : {\r\n\t\t\t\t\t\t\t\"Start\" : {\r\n\t\t\t\t\t\t\t\t\"Days\" : 90,\r\n\t\t\t\t\t\t\t\t\"Coeff\" : -1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"End\" : {\r\n\t\t\t\t\t\t\t\t\"Days\" : 0,\r\n\t\t\t\t\t\t\t\t\"Coeff\" : 1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"UseIndexEnd\" : false,\r\n\t\t\t\t\t\t\t\"UseEventEnd\" : false\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"RestrictVisit\" : false,\r\n\t\t\t\t\t\t\"IgnoreObservationPeriod\" : false,\r\n\t\t\t\t\t\t\"Occurrence\" : {\r\n\t\t\t\t\t\t\t\"Type\" : 2,\r\n\t\t\t\t\t\t\t\"Count\" : 1,\r\n\t\t\t\t\t\t\t\"IsDistinct\" : false\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t],\r\n\t\t\t\t\"DemographicCriteriaList\" : [],\r\n\t\t\t\t\"Groups\" : []\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\" : \"has no AMD or RVO any time prior\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"Type\" : \"ALL\",\r\n\t\t\t\t\"CriteriaList\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"Criteria\" : {\r\n\t\t\t\t\t\t\t\"ConditionOccurrence\" : {\r\n\t\t\t\t\t\t\t\t\"CodesetId\" : 5\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"StartWindow\" : {\r\n\t\t\t\t\t\t\t\"Start\" : {\r\n\t\t\t\t\t\t\t\t\"Coeff\" : -1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"End\" : {\r\n\t\t\t\t\t\t\t\t\"Days\" : 0,\r\n\t\t\t\t\t\t\t\t\"Coeff\" : 1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"UseIndexEnd\" : false,\r\n\t\t\t\t\t\t\t\"UseEventEnd\" : false\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"RestrictVisit\" : false,\r\n\t\t\t\t\t\t\"IgnoreObservationPeriod\" : true,\r\n\t\t\t\t\t\t\"Occurrence\" : {\r\n\t\t\t\t\t\t\t\"Type\" : 0,\r\n\t\t\t\t\t\t\t\"Count\" : 0,\r\n\t\t\t\t\t\t\t\"IsDistinct\" : false\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"Criteria\" : {\r\n\t\t\t\t\t\t\t\"ConditionOccurrence\" : {\r\n\t\t\t\t\t\t\t\t\"CodesetId\" : 4\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"StartWindow\" : {\r\n\t\t\t\t\t\t\t\"Start\" : {\r\n\t\t\t\t\t\t\t\t\"Coeff\" : -1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"End\" : {\r\n\t\t\t\t\t\t\t\t\"Days\" : 0,\r\n\t\t\t\t\t\t\t\t\"Coeff\" : 1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"UseIndexEnd\" : false,\r\n\t\t\t\t\t\t\t\"UseEventEnd\" : false\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"RestrictVisit\" : false,\r\n\t\t\t\t\t\t\"IgnoreObservationPeriod\" : true,\r\n\t\t\t\t\t\t\"Occurrence\" : {\r\n\t\t\t\t\t\t\t\"Type\" : 0,\r\n\t\t\t\t\t\t\t\"Count\" : 0,\r\n\t\t\t\t\t\t\t\"IsDistinct\" : false\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t],\r\n\t\t\t\t\"DemographicCriteriaList\" : [],\r\n\t\t\t\t\"Groups\" : []\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\" : \"has no DR or ME prior to 90d of treatment\",\r\n\t\t\t\"expression\" : {\r\n\t\t\t\t\"Type\" : \"ALL\",\r\n\t\t\t\t\"CriteriaList\" : [\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"Criteria\" : {\r\n\t\t\t\t\t\t\t\"ConditionOccurrence\" : {\r\n\t\t\t\t\t\t\t\t\"CodesetId\" : 2\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"StartWindow\" : {\r\n\t\t\t\t\t\t\t\"Start\" : {\r\n\t\t\t\t\t\t\t\t\"Coeff\" : -1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"End\" : {\r\n\t\t\t\t\t\t\t\t\"Days\" : 90,\r\n\t\t\t\t\t\t\t\t\"Coeff\" : -1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"UseIndexEnd\" : false,\r\n\t\t\t\t\t\t\t\"UseEventEnd\" : false\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"RestrictVisit\" : false,\r\n\t\t\t\t\t\t\"IgnoreObservationPeriod\" : true,\r\n\t\t\t\t\t\t\"Occurrence\" : {\r\n\t\t\t\t\t\t\t\"Type\" : 0,\r\n\t\t\t\t\t\t\t\"Count\" : 0,\r\n\t\t\t\t\t\t\t\"IsDistinct\" : false\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t},\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t\"Criteria\" : {\r\n\t\t\t\t\t\t\t\"ConditionOccurrence\" : {\r\n\t\t\t\t\t\t\t\t\"CodesetId\" : 3\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"StartWindow\" : {\r\n\t\t\t\t\t\t\t\"Start\" : {\r\n\t\t\t\t\t\t\t\t\"Coeff\" : -1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"End\" : {\r\n\t\t\t\t\t\t\t\t\"Days\" : 90,\r\n\t\t\t\t\t\t\t\t\"Coeff\" : -1\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\"UseIndexEnd\" : false,\r\n\t\t\t\t\t\t\t\"UseEventEnd\" : false\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"RestrictVisit\" : false,\r\n\t\t\t\t\t\t\"IgnoreObservationPeriod\" : true,\r\n\t\t\t\t\t\t\"Occurrence\" : {\r\n\t\t\t\t\t\t\t\"Type\" : 0,\r\n\t\t\t\t\t\t\t\"Count\" : 0,\r\n\t\t\t\t\t\t\t\"IsDistinct\" : false\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t],\r\n\t\t\t\t\"DemographicCriteriaList\" : [],\r\n\t\t\t\t\"Groups\" : []\r\n\t\t\t}\r\n\t\t}\r\n\t],\r\n\t\"CensoringCriteria\" : [],\r\n\t\"CollapseSettings\" : {\r\n\t\t\"CollapseType\" : \"ERA\",\r\n\t\t\"EraPad\" : 0\r\n\t},\r\n\t\"CensorWindow\" : {}\r\n}"
         }
       ],
+      "subsetDefs": [
+        "{\n  \"name\": \"Calendar limit\",\n  \"definitionId\": 1,\n  \"subsetOperators\": [\n    {\n      \"name\": \"occurs after 2017-12-01 and before 2023-12-31\",\n      \"subsetType\": \"LimitSubsetOperator\",\n      \"priorTime\": 0,\n      \"followUpTime\": 0,\n      \"limitTo\": \"all\",\n      \"calendarStartDate\": \"2017-12-01\",\n      \"calendarEndDate\": \"2023-12-31\"\n    }\n  ],\n  \"packageVersion\": \"0.10.0\",\n  \"identifierExpression\": \"targetId * 1000 + definitionId\",\n  \"operatorNameConcatString\": \", \",\n  \"subsetCohortNameTemplate\": \"@baseCohortName - @subsetDefinitionName @operatorNames\"\n}"
+      ],
+      "cohortSubsets": [
+        {
+          "cohortId": 17793001,
+          "subsetId": 1,
+          "targetCohortId": 17793
+        },
+        {
+          "cohortId": 17796001,
+          "subsetId": 1,
+          "targetCohortId": 17796
+        },
+        {
+          "cohortId": 17797001,
+          "subsetId": 1,
+          "targetCohortId": 17797
+        },
+        {
+          "cohortId": 17803001,
+          "subsetId": 1,
+          "targetCohortId": 17803
+        },
+        {
+          "cohortId": 17809001,
+          "subsetId": 1,
+          "targetCohortId": 17809
+        },
+        {
+          "cohortId": 17810001,
+          "subsetId": 1,
+          "targetCohortId": 17810
+        },
+        {
+          "cohortId": 17811001,
+          "subsetId": 1,
+          "targetCohortId": 17811
+        },
+        {
+          "cohortId": 17798001,
+          "subsetId": 1,
+          "targetCohortId": 17798
+        },
+        {
+          "cohortId": 17799001,
+          "subsetId": 1,
+          "targetCohortId": 17799
+        },
+        {
+          "cohortId": 17801001,
+          "subsetId": 1,
+          "targetCohortId": 17801
+        },
+        {
+          "cohortId": 17804001,
+          "subsetId": 1,
+          "targetCohortId": 17804
+        },
+        {
+          "cohortId": 17805001,
+          "subsetId": 1,
+          "targetCohortId": 17805
+        },
+        {
+          "cohortId": 17806001,
+          "subsetId": 1,
+          "targetCohortId": 17806
+        },
+        {
+          "cohortId": 17807001,
+          "subsetId": 1,
+          "targetCohortId": 17807
+        },
+        {
+          "cohortId": 17808001,
+          "subsetId": 1,
+          "targetCohortId": 17808
+        },
+        {
+          "cohortId": 17812001,
+          "subsetId": 1,
+          "targetCohortId": 17812
+        },
+        {
+          "cohortId": 17813001,
+          "subsetId": 1,
+          "targetCohortId": 17813
+        },
+        {
+          "cohortId": 17814001,
+          "subsetId": 1,
+          "targetCohortId": 17814
+        }
+      ],
       "attr_class": ["CohortDefinitionSharedResources", "SharedResources"]
     },
     {
@@ -659,14 +754,14 @@
       "settings": {
         "timeToEventSettings": [
           {
-            "targetIds": [17793, 17796, 17797, 17803, 17809, 17810, 17811, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17812, 17813, 17814, 17816, 17817, 17818, 17819, 17820, 17821, 17795, 17760, 17761, 17706, 17815, 17788],
+            "targetIds": [17793, 17796, 17797, 17803, 17809, 17810, 17811, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17812, 17813, 17814, 17816, 17817, 17818, 17819, 17820, 17821, 17795, 17760, 17761, 17706, 17815, 17788, 17793001, 17796001, 17797001, 17803001, 17809001, 17810001, 17811001, 17798001, 17799001, 17801001, 17804001, 17805001, 17806001, 17807001, 17808001, 17812001, 17813001, 17814001],
             "outcomeIds": [17760, 17761, 17706, 17815, 17788],
             "attr_class": "timeToEventSettings"
           }
         ],
         "dechallengeRechallengeSettings": [
           {
-            "targetCohortDefinitionIds": [17793, 17796, 17797, 17803, 17809, 17810, 17811, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17812, 17813, 17814, 17816, 17817, 17818, 17819, 17820, 17821, 17795, 17760, 17761, 17706, 17815, 17788],
+            "targetCohortDefinitionIds": [17793, 17796, 17797, 17803, 17809, 17810, 17811, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17812, 17813, 17814, 17816, 17817, 17818, 17819, 17820, 17821, 17795, 17760, 17761, 17706, 17815, 17788, 17793001, 17796001, 17797001, 17803001, 17809001, 17810001, 17811001, 17798001, 17799001, 17801001, 17804001, 17805001, 17806001, 17807001, 17808001, 17812001, 17813001, 17814001],
             "outcomeCohortDefinitionIds": [17760, 17761, 17706, 17815, 17788],
             "dechallengeStopInterval": 30,
             "dechallengeEvaluationWindow": 30,
@@ -675,7 +770,7 @@
         ],
         "aggregateCovariateSettings": [
           {
-            "targetIds": [17793, 17796, 17797, 17803, 17809, 17810, 17811, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17812, 17813, 17814, 17816, 17817, 17818, 17819, 17820, 17821, 17795, 17760, 17761, 17706, 17815, 17788],
+            "targetIds": [17793, 17796, 17797, 17803, 17809, 17810, 17811, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17812, 17813, 17814, 17816, 17817, 17818, 17819, 17820, 17821, 17795, 17760, 17761, 17706, 17815, 17788, 17793001, 17796001, 17797001, 17803001, 17809001, 17810001, 17811001, 17798001, 17799001, 17801001, 17804001, 17805001, 17806001, 17807001, 17808001, 17812001, 17813001, 17814001],
             "outcomeIds": [17760, 17761, 17706, 17815, 17788],
             "minPriorObservation": 365,
             "riskWindowStart": 1,
@@ -807,30 +902,6 @@
               "name": "New user of empagliflozin as 2nd-line treatment with prior T2DM Jul2021-Dec2023"
             },
             {
-              "id": 17816,
-              "name": "semaglutide exposures"
-            },
-            {
-              "id": 17817,
-              "name": "dulaglutide exposures"
-            },
-            {
-              "id": 17818,
-              "name": "exenatide exposures"
-            },
-            {
-              "id": 17819,
-              "name": "empagliflozin exposures"
-            },
-            {
-              "id": 17820,
-              "name": "sitagliptin exposures"
-            },
-            {
-              "id": 17821,
-              "name": "glipizide exposures"
-            },
-            {
               "id": 17795,
               "name": "Persons with Type 2 diabetes mellitus and no prior T1DM or secondary diabetes"
             }
@@ -882,7 +953,7 @@
           ],
           "analysisList": [
             {
-              "targets": [17793, 17796, 17797, 17803, 17809, 17810, 17811, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17812, 17813, 17814, 17816, 17817, 17818, 17819, 17820, 17821, 17795],
+              "targets": [17793, 17796, 17797, 17803, 17809, 17810, 17811, 17798, 17799, 17801, 17804, 17805, 17806, 17807, 17808, 17812, 17813, 17814, 17795],
               "outcomes": [1, 2, 3, 4, 5],
               "tars": 1
             }
@@ -892,6 +963,10 @@
             "byGender": true,
             "byYear": true,
             "ageBreaks": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110]
+          },
+          "studyWindow": {
+            "startDate": "2017-12-01",
+            "endDate": "2023-12-31"
           }
         }
       },
@@ -12207,7 +12282,7 @@
         ],
         "combineDataFetchAcrossOutcomes": false,
         "sccsDiagnosticThresholds": {
-          "mdrrThreshold": 10,
+          "mdrrThreshold": "Inf",
           "easeThreshold": 0.25,
           "timeTrendPThreshold": 0.05,
           "preExposurePThreshold": 0.05,
