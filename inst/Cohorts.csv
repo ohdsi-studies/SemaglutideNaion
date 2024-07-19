@@ -1,0 +1,31 @@
+atlas_id,cohort_id,cohort_name,logic_description,generate_stats
+17793,17793,New user of semaglutide as 2nd-line treatment with prior T2DM and prior metformin,NA,TRUE
+17796,17796,New user of dulaglutide as 2nd-line treatment with prior T2DM and prior metformin,NA,TRUE
+17797,17797,New user of exenatide as 2nd-line treatment with prior T2DM and prior metformin,NA,TRUE
+17803,17803,New user of semaglutide with prior T2DM and prior metformin and no insulin,NA,TRUE
+17809,17809,New user of semaglutide as 2nd-line treatment with prior T2DM Dec2017-Jan2020,NA,TRUE
+17810,17810,New user of semaglutide as 2nd-line treatment with prior T2DM Feb2020-Jun2021,NA,TRUE
+17811,17811,New user of semaglutide as 2nd-line treatment with prior T2DM Jul2021-Dec2023,NA,TRUE
+17798,17798,New user of empagliflozin as 2nd-line treatment with prior T2DM and prior metformin,NA,TRUE
+17799,17799,New user of sitagliptin as 2nd-line treatment with prior T2DM and prior metformin,NA,TRUE
+17801,17801,New user of glipizide as 2nd-line treatment with prior T2DM and prior metformin,NA,TRUE
+17804,17804,New user of empagliflozin with prior T2DM and prior metformin and no insulin,NA,TRUE
+17805,17805,New user of sitagliptin with prior T2DM and prior metformin and no insulin,NA,TRUE
+17806,17806,New user of glipizide with prior T2DM and prior metformin and no insulin,NA,TRUE
+17807,17807,New user of dulaglutide with prior T2DM and prior metformin and no insulin,NA,TRUE
+17808,17808,New user of exenatide with prior T2DM and prior metformin and no insulin,NA,TRUE
+17812,17812,New user of empagliflozin as 2nd-line treatment with prior T2DM Dec2017-Jan2020,NA,TRUE
+17813,17813,New user of empagliflozin as 2nd-line treatment with prior T2DM Feb2020-Jun2021,NA,TRUE
+17814,17814,New user of empagliflozin as 2nd-line treatment with prior T2DM Jul2021-Dec2023,NA,TRUE
+17816,17816,semaglutide exposures,NA,TRUE
+17817,17817,dulaglutide exposures,NA,TRUE
+17818,17818,exenatide exposures,NA,TRUE
+17819,17819,empagliflozin exposures,NA,TRUE
+17820,17820,sitagliptin exposures,NA,TRUE
+17821,17821,glipizide exposures,NA,TRUE
+17795,17795,Persons with Type 2 diabetes mellitus and no prior T1DM or secondary diabetes,NA,TRUE
+17760,17760,Nonarteric anterior ischemic neuropathy with index date correction and 2dxGCA,NA,TRUE
+17761,17761,Nonarteric anterior ischemic neuropathy with index date correction and 2nd dx and 2dxGCA,NA,TRUE
+17706,17706,Proliferative diabetic retinopathy,NA,TRUE
+17815,17815,Treatment-requiring Diabetic Retinopathy or Macular Edema,NA,TRUE
+17788,17788,Treatment-requiring Diabetic Retinopathy or Macular Edema including vitrectomy,NA,TRUE
