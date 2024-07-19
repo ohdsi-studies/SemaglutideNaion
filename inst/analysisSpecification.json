@@ -159,482 +159,482 @@
       "negativeControlOutcomes": {
         "negativeControlOutcomeCohortSet": [
           {
-            "conceptid": "  439935",
+            "outcomeConceptId": "439935",
             "cohortName": "Abnormal posture",
             "cohortId": "1001"
           },
           {
-            "conceptid": "  443585",
+            "outcomeConceptId": "443585",
             "cohortName": "Abrasion and/or friction burn of multiple sites",
             "cohortId": "1002"
           },
           {
-            "conceptid": "  199192",
+            "outcomeConceptId": "199192",
             "cohortName": "Abrasion and/or friction burn of trunk without infection",
             "cohortId": "1003"
           },
           {
-            "conceptid": " 4088290",
+            "outcomeConceptId": "4088290",
             "cohortName": "Absence of breast",
             "cohortId": "1004"
           },
           {
-            "conceptid": " 4092879",
+            "outcomeConceptId": "4092879",
             "cohortName": "Absent kidney",
             "cohortId": "1005"
           },
           {
-            "conceptid": "   75911",
+            "outcomeConceptId": "75911",
             "cohortName": "Acquired hallux valgus",
             "cohortId": "1006"
           },
           {
-            "conceptid": "  137951",
+            "outcomeConceptId": "137951",
             "cohortName": "Acquired keratoderma",
             "cohortId": "1007"
           },
           {
-            "conceptid": "   73241",
+            "outcomeConceptId": "73241",
             "cohortName": "Anal and rectal polyp",
             "cohortId": "1008"
           },
           {
-            "conceptid": "45757682",
+            "outcomeConceptId": "45757682",
             "cohortName": "Anomaly of jaw size",
             "cohortId": "1009"
           },
           {
-            "conceptid": "   81878",
+            "outcomeConceptId": "81878",
             "cohortName": "Benign paroxysmal positional vertigo",
             "cohortId": "1010"
           },
           {
-            "conceptid": " 4216219",
+            "outcomeConceptId": "4216219",
             "cohortName": "Bizarre personal appearance",
             "cohortId": "1011"
           },
           {
-            "conceptid": "  133655",
+            "outcomeConceptId": "133655",
             "cohortName": "Burn of forearm",
             "cohortId": "1012"
           },
           {
-            "conceptid": "  134765",
+            "outcomeConceptId": "134765",
             "cohortName": "Cachexia",
             "cohortId": "1013"
           },
           {
-            "conceptid": "   73560",
+            "outcomeConceptId": "73560",
             "cohortName": "Calcaneal spur",
             "cohortId": "1014"
           },
           {
-            "conceptid": "  434327",
+            "outcomeConceptId": "434327",
             "cohortName": "Cannabis abuse",
             "cohortId": "1015"
           },
           {
-            "conceptid": "  140842",
+            "outcomeConceptId": "140842",
             "cohortName": "Changes in skin texture",
             "cohortId": "1016"
           },
           {
-            "conceptid": "   81378",
+            "outcomeConceptId": "81378",
             "cohortName": "Chondromalacia of patella",
             "cohortId": "1017"
           },
           {
-            "conceptid": "  432303",
+            "outcomeConceptId": "432303",
             "cohortName": "Cocaine abuse",
             "cohortId": "1018"
           },
           {
-            "conceptid": " 4201390",
+            "outcomeConceptId": "4201390",
             "cohortName": "Colostomy present",
             "cohortId": "1019"
           },
           {
-            "conceptid": "46269889",
+            "outcomeConceptId": "46269889",
             "cohortName": "Complication due to Crohn's disease",
             "cohortId": "1020"
           },
           {
-            "conceptid": "  434675",
+            "outcomeConceptId": "434675",
             "cohortName": "Complication of gastrostomy",
             "cohortId": "1021"
           },
           {
-            "conceptid": "  134438",
+            "outcomeConceptId": "134438",
             "cohortName": "Contact dermatitis",
             "cohortId": "1022"
           },
           {
-            "conceptid": "   78619",
+            "outcomeConceptId": "78619",
             "cohortName": "Contusion of knee",
             "cohortId": "1023"
           },
           {
-            "conceptid": "  201606",
+            "outcomeConceptId": "201606",
             "cohortName": "Crohn's disease",
             "cohortId": "1024"
           },
           {
-            "conceptid": "   76786",
+            "outcomeConceptId": "76786",
             "cohortName": "Derangement of knee",
             "cohortId": "1025"
           },
           {
-            "conceptid": "  436077",
+            "outcomeConceptId": "436077",
             "cohortName": "Developmental delay",
             "cohortId": "1026"
           },
           {
-            "conceptid": "  377910",
+            "outcomeConceptId": "377910",
             "cohortName": "Deviated nasal septum",
             "cohortId": "1027"
           },
           {
-            "conceptid": " 4115402",
+            "outcomeConceptId": "4115402",
             "cohortName": "Difficulty sleeping",
             "cohortId": "1028"
           },
           {
-            "conceptid": "45757370",
+            "outcomeConceptId": "45757370",
             "cohortName": "Disproportion of reconstructed breast",
             "cohortId": "1029"
           },
           {
-            "conceptid": "  433111",
+            "outcomeConceptId": "433111",
             "cohortName": "Effects of hunger",
             "cohortId": "1030"
           },
           {
-            "conceptid": "  433527",
+            "outcomeConceptId": "433527",
             "cohortName": "Endometriosis",
             "cohortId": "1031"
           },
           {
-            "conceptid": " 4170770",
+            "outcomeConceptId": "4170770",
             "cohortName": "Epidermoid cyst",
             "cohortId": "1032"
           },
           {
-            "conceptid": "  437448",
+            "outcomeConceptId": "437448",
             "cohortName": "Exhaustion due to excessive exertion",
             "cohortId": "1033"
           },
           {
-            "conceptid": " 4092896",
+            "outcomeConceptId": "4092896",
             "cohortName": "Feces contents abnormal",
             "cohortId": "1034"
           },
           {
-            "conceptid": " 4092896",
+            "outcomeConceptId": "4092896",
             "cohortName": "Feces contents abnormal",
             "cohortId": "1035"
           },
           {
-            "conceptid": "  374801",
+            "outcomeConceptId": "374801",
             "cohortName": "Foreign body in ear",
             "cohortId": "1036"
           },
           {
-            "conceptid": "  259995",
+            "outcomeConceptId": "259995",
             "cohortName": "Foreign body in orifice",
             "cohortId": "1037"
           },
           {
-            "conceptid": " 4096540",
+            "outcomeConceptId": "4096540",
             "cohortName": "Foreskin deficient",
             "cohortId": "1038"
           },
           {
-            "conceptid": "  439788",
+            "outcomeConceptId": "439788",
             "cohortName": "Galactosemia",
             "cohortId": "1039"
           },
           {
-            "conceptid": "40481632",
+            "outcomeConceptId": "40481632",
             "cohortName": "Ganglion cyst",
             "cohortId": "1040"
           },
           {
-            "conceptid": "40481632",
+            "outcomeConceptId": "40481632",
             "cohortName": "Ganglion cyst",
             "cohortId": "1041"
           },
           {
-            "conceptid": " 4168318",
+            "outcomeConceptId": "4168318",
             "cohortName": "Genetic disorder carrier",
             "cohortId": "1042"
           },
           {
-            "conceptid": "  433577",
+            "outcomeConceptId": "433577",
             "cohortName": "Hammer toe",
             "cohortId": "1043"
           },
           {
-            "conceptid": " 4231770",
+            "outcomeConceptId": "4231770",
             "cohortName": "Hereditary thrombophilia",
             "cohortId": "1044"
           },
           {
-            "conceptid": " 4012570",
+            "outcomeConceptId": "4012570",
             "cohortName": "High risk sexual behavior",
             "cohortId": "1045"
           },
           {
-            "conceptid": " 4012934",
+            "outcomeConceptId": "4012934",
             "cohortName": "Homocystinuria",
             "cohortId": "1046"
           },
           {
-            "conceptid": "  374375",
+            "outcomeConceptId": "374375",
             "cohortName": "Impacted cerumen",
             "cohortId": "1047"
           },
           {
-            "conceptid": "  374375",
+            "outcomeConceptId": "374375",
             "cohortName": "Impacted cerumen",
             "cohortId": "1048"
           },
           {
-            "conceptid": " 4344500",
+            "outcomeConceptId": "4344500",
             "cohortName": "Impingement syndrome of shoulder region",
             "cohortId": "1049"
           },
           {
-            "conceptid": "40481897",
+            "outcomeConceptId": "40481897",
             "cohortName": "Inadequate sleep hygiene",
             "cohortId": "1050"
           },
           {
-            "conceptid": "  139099",
+            "outcomeConceptId": "139099",
             "cohortName": "Ingrowing nail",
             "cohortId": "1051"
           },
           {
-            "conceptid": "  444132",
+            "outcomeConceptId": "444132",
             "cohortName": "Injury of knee",
             "cohortId": "1052"
           },
           {
-            "conceptid": " 4265896",
+            "outcomeConceptId": "4265896",
             "cohortName": "Jellyfish poisoning",
             "cohortId": "1053"
           },
           {
-            "conceptid": "  432593",
+            "outcomeConceptId": "432593",
             "cohortName": "Kwashiorkor",
             "cohortId": "1054"
           },
           {
-            "conceptid": "  434203",
+            "outcomeConceptId": "434203",
             "cohortName": "Late effect of contusion",
             "cohortId": "1055"
           },
           {
-            "conceptid": "  438329",
+            "outcomeConceptId": "438329",
             "cohortName": "Late effect of motor vehicle accident",
             "cohortId": "1056"
           },
           {
-            "conceptid": " 4027782",
+            "outcomeConceptId": "4027782",
             "cohortName": "Lipid storage disease",
             "cohortId": "1057"
           },
           {
-            "conceptid": "  433997",
+            "outcomeConceptId": "433997",
             "cohortName": "Lymphangioma",
             "cohortId": "1058"
           },
           {
-            "conceptid": " 4051630",
+            "outcomeConceptId": "4051630",
             "cohortName": "Malingering",
             "cohortId": "1059"
           },
           {
-            "conceptid": "  258540",
+            "outcomeConceptId": "258540",
             "cohortName": "Marfan's syndrome",
             "cohortId": "1060"
           },
           {
-            "conceptid": "  432798",
+            "outcomeConceptId": "432798",
             "cohortName": "Mechanical complication of internal orthopedic device, implant AND/OR graft",
             "cohortId": "1061"
           },
           {
-            "conceptid": " 4103703",
+            "outcomeConceptId": "4103703",
             "cohortName": "Melena",
             "cohortId": "1062"
           },
           {
-            "conceptid": "  439795",
+            "outcomeConceptId": "439795",
             "cohortName": "Minimal cognitive impairment",
             "cohortId": "1063"
           },
           {
-            "conceptid": " 4209423",
+            "outcomeConceptId": "4209423",
             "cohortName": "Nicotine dependence",
             "cohortId": "1064"
           },
           {
-            "conceptid": " 4209423",
+            "outcomeConceptId": "4209423",
             "cohortName": "Nicotine dependence",
             "cohortId": "1065"
           },
           {
-            "conceptid": "  377572",
+            "outcomeConceptId": "377572",
             "cohortName": "Noise effects on inner ear",
             "cohortId": "1066"
           },
           {
-            "conceptid": "40480893",
+            "outcomeConceptId": "40480893",
             "cohortName": "Nonspecific tuberculin test reaction",
             "cohortId": "1067"
           },
           {
-            "conceptid": "40480893",
+            "outcomeConceptId": "40480893",
             "cohortName": "Nonspecific tuberculin test reaction",
             "cohortId": "1068"
           },
           {
-            "conceptid": "  136368",
+            "outcomeConceptId": "136368",
             "cohortName": "Non-toxic multinodular goiter",
             "cohortId": "1069"
           },
           {
-            "conceptid": "  438130",
+            "outcomeConceptId": "438130",
             "cohortName": "Opioid abuse",
             "cohortId": "1070"
           },
           {
-            "conceptid": "  438130",
+            "outcomeConceptId": "438130",
             "cohortName": "Opioid abuse",
             "cohortId": "1071"
           },
           {
-            "conceptid": " 4299094",
+            "outcomeConceptId": "4299094",
             "cohortName": "Opioid intoxication",
             "cohortId": "1072"
           },
           {
-            "conceptid": " 4091513",
+            "outcomeConceptId": "4091513",
             "cohortName": "Passing flatus",
             "cohortId": "1073"
           },
           {
-            "conceptid": "  437092",
+            "outcomeConceptId": "437092",
             "cohortName": "Physiological development failure",
             "cohortId": "1074"
           },
           {
-            "conceptid": "  433951",
+            "outcomeConceptId": "433951",
             "cohortName": "Poisoning by tranquilizer",
             "cohortId": "1075"
           },
           {
-            "conceptid": " 4202045",
+            "outcomeConceptId": "4202045",
             "cohortName": "Postviral fatigue syndrome",
             "cohortId": "1076"
           },
           {
-            "conceptid": "  439790",
+            "outcomeConceptId": "439790",
             "cohortName": "Psychalgia",
             "cohortId": "1077"
           },
           {
-            "conceptid": "   81634",
+            "outcomeConceptId": "81634",
             "cohortName": "Ptotic breast",
             "cohortId": "1078"
           },
           {
-            "conceptid": "  380706",
+            "outcomeConceptId": "380706",
             "cohortName": "Regular astigmatism",
             "cohortId": "1079"
           },
           {
-            "conceptid": "  141932",
+            "outcomeConceptId": "141932",
             "cohortName": "Senile hyperkeratosis",
             "cohortId": "1080"
           },
           {
-            "conceptid": " 4019836",
+            "outcomeConceptId": "4019836",
             "cohortName": "Social exclusion",
             "cohortId": "1081"
           },
           {
-            "conceptid": "36713918",
+            "outcomeConceptId": "36713918",
             "cohortName": "Somatic dysfunction of lumbar region",
             "cohortId": "1082"
           },
           {
-            "conceptid": "  443172",
+            "outcomeConceptId": "443172",
             "cohortName": "Splinter of face without major open wound",
             "cohortId": "1083"
           },
           {
-            "conceptid": "   81151",
+            "outcomeConceptId": "81151",
             "cohortName": "Sprain of ankle",
             "cohortId": "1084"
           },
           {
-            "conceptid": "   72748",
+            "outcomeConceptId": "72748",
             "cohortName": "Strain of rotator cuff capsule",
             "cohortId": "1085"
           },
           {
-            "conceptid": "  432436",
+            "outcomeConceptId": "432436",
             "cohortName": "Symbolic dysfunction",
             "cohortId": "1086"
           },
           {
-            "conceptid": "  378427",
+            "outcomeConceptId": "378427",
             "cohortName": "Tear film insufficiency",
             "cohortId": "1087"
           },
           {
-            "conceptid": "  437264",
+            "outcomeConceptId": "437264",
             "cohortName": "Tobacco dependence syndrome",
             "cohortId": "1088"
           },
           {
-            "conceptid": "  433244",
+            "outcomeConceptId": "433244",
             "cohortName": "Tooth loss",
             "cohortId": "1089"
           },
           {
-            "conceptid": "  436876",
+            "outcomeConceptId": "436876",
             "cohortName": "Toxic effect of lead compound",
             "cohortId": "1090"
           },
           {
-            "conceptid": "  440612",
+            "outcomeConceptId": "440612",
             "cohortName": "Toxic effect of tobacco and nicotine",
             "cohortId": "1091"
           },
           {
-            "conceptid": " 4201387",
+            "outcomeConceptId": "4201387",
             "cohortName": "Tracheostomy present",
             "cohortId": "1092"
           },
           {
-            "conceptid": "45757285",
+            "outcomeConceptId": "45757285",
             "cohortName": "Unsatisfactory tooth restoration",
             "cohortId": "1093"
           },
           {
-            "conceptid": "  140641",
+            "outcomeConceptId": "140641",
             "cohortName": "Verruca vulgaris",
             "cohortId": "1094"
           },
           {
-            "conceptid": " 4115367",
+            "outcomeConceptId": "4115367",
             "cohortName": "Wrist joint pain",
             "cohortId": "1095"
           },
           {
-            "conceptid": "  440193",
+            "outcomeConceptId": "440193",
             "cohortName": "Wristdrop",
             "cohortId": "1096"
           }
