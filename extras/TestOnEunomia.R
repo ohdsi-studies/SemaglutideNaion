@@ -298,12 +298,12 @@ analysisSpecifications <- createEmptyAnalysisSpecificiations() |>
   addSelfControlledCaseSeriesModuleSpecifications(sccsModuleSpecifications)
 
 # Cleanup any prior results -----------------
-outputFolder <- "D:/TEMP/StrategusR6Testing"
+outputFolder <- "D:/TEMP/SemaglutideNaionTesting"
 unlink(outputFolder, recursive = T, force = T)
 dir.create(outputFolder, recursive = T)
 
 # Execute -------------------
-ParallelLogger::saveSettingsToJson(analysisSpecifications, file.path(outputFolder, "analysisSettings.json"))
+ParallelLogger::saveSettingsToJson(analysisSpecifications, file.path(outputFolder, "analysisSpecifications.json"))
 workFolder <- file.path(outputFolder, "work_folder")
 resultsFolder <- file.path(outputFolder, "results_folder")
 

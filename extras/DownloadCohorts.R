@@ -45,7 +45,8 @@ oList$outcomeCohortName <- gsub("^\\[semaNAION\\] ", "", oList$outcomeCohortName
 # Save the cohort definition set for the study
 CohortGenerator::saveCohortDefinitionSet(
   cohortDefinitionSet = cohortDefinitionSet,
-  cohortFileNameValue = c("cohortName")
+  cohortFileNameFormat = "%s_%s",
+  cohortFileNameValue = c("cohortId", "cohortName")
 )
 
 # Save the list of negative control outcomes
