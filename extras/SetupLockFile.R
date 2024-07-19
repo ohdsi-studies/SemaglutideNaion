@@ -1,7 +1,7 @@
 source("extras/RenvHelpers.R")
 lf <- compareLockFiles(
   filename1 = "D:/git/ohdsi-studies/SemaglutideNaion/renv.lock",
-  filename2 = "D:/git/ohdsi-studies/SemaglutideNaion/extras/sccs-renv.lock"
+  filename2 = "D:/git/ohdsi-studies/SemaglutideNaion/extras/cd-renv.lock"
 )
 
 # Loop through and record the versions of any missing packages
@@ -48,6 +48,7 @@ updatedPackages <- list(
     Repository = "CRAN"
   ),
   "OHDSI/Characterization@v0.2.0",
+  "OHDSI/CohortDiagnostics@v3.2.5",
   "OHDSI/CohortGenerator@v0.10.0",
   "OHDSI/CohortIncidence@v3.3.1",
   "OHDSI/CohortMethod@v5.3.0",
