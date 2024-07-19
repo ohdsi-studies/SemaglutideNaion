@@ -36,6 +36,11 @@ cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
 
 # Remove the study prefix from the cohort names
 cohortDefinitionSet$cohortName <- gsub("^\\[semaNAION\\] ", "", cohortDefinitionSet$cohortName)
+cmTcList$targetCohortName <- gsub("^\\[semaNAION\\] ", "", cmTcList$targetCohortName)
+cmTcList$comparatorCohortName <- gsub("^\\[semaNAION\\] ", "", cmTcList$comparatorCohortName)
+sccsTList$targetCohortName <- gsub("^\\[semaNAION\\] ", "", sccsTList$targetCohortName)
+sccsIList$indicationCohortName <- gsub("^\\[semaNAION\\] ", "", sccsIList$indicationCohortName)
+oList$outcomeCohortName <- gsub("^\\[semaNAION\\] ", "", oList$outcomeCohortName)
 
 # Save the cohort definition set for the study
 CohortGenerator::saveCohortDefinitionSet(
@@ -49,3 +54,30 @@ CohortGenerator::writeCsv(
   file = file.path("inst", "negativeControlOutcomes.csv"),
   warnOnFileNameCaseMismatch = F
 )
+
+# Save the other study design assets that we need for
+# creating the analysis specification
+CohortGenerator::writeCsv(
+  x = cmTcList,
+  file = file.path("inst", "cmTcList.csv"),
+  warnOnFileNameCaseMismatch = F
+)
+
+CohortGenerator::writeCsv(
+  x = sccsTList,
+  file = file.path("inst", "sccsTList.csv"),
+  warnOnFileNameCaseMismatch = F
+)
+
+CohortGenerator::writeCsv(
+  x = sccsIList,
+  file = file.path("inst", "sccsIList.csv"),
+  warnOnFileNameCaseMismatch = F
+)
+
+CohortGenerator::writeCsv(
+  x = oList,
+  file = file.path("inst", "oList.csv"),
+  warnOnFileNameCaseMismatch = F
+)
+
