@@ -38,6 +38,17 @@
       "Source": "Repository",
       "Repository": "CRAN"
     },
+    "CohortDiagnostics": {
+      "Package": "CohortDiagnostics",
+      "Version": "3.2.5",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "OHDSI",
+      "RemoteRepo": "CohortDiagnostics",
+      "RemoteRef": "v3.2.5",
+      "RemoteSha": "03c40ab06832a329f2c904fbd686a0596ea9af6f"
+    },
     "CohortGenerator": {
       "Package": "CohortGenerator",
       "Version": "0.10.0",
@@ -269,6 +280,12 @@
     "clipr": {
       "Package": "clipr",
       "Version": "0.8.0",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "clock": {
+      "Package": "clock",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Repository": "CRAN"
     },
@@ -539,6 +556,12 @@
     "readr": {
       "Package": "readr",
       "Version": "2.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "remotes": {
+      "Package": "remotes",
+      "Version": "2.4.2.1",
       "Source": "Repository",
       "Repository": "CRAN"
     },
