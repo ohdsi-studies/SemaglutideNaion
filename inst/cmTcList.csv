@@ -1,0 +1,20 @@
+target_cohort_id,target_cohort_name,target_concept_id,comparator_cohort_id,comparator_cohort_name,comparator_concept_id
+17793,New user of semaglutide as 2nd-line treatment with prior T2DM and prior metformin,793143,17798,New user of empagliflozin as 2nd-line treatment with prior T2DM and prior metformin,45774751
+17793,New user of semaglutide as 2nd-line treatment with prior T2DM and prior metformin,793143,17799,New user of sitagliptin as 2nd-line treatment with prior T2DM and prior metformin,1580747
+17793,New user of semaglutide as 2nd-line treatment with prior T2DM and prior metformin,793143,17801,New user of glipizide as 2nd-line treatment with prior T2DM and prior metformin,1560171
+17793,New user of semaglutide as 2nd-line treatment with prior T2DM and prior metformin,793143,17796,New user of dulaglutide as 2nd-line treatment with prior T2DM and prior metformin,45774435
+17793,New user of semaglutide as 2nd-line treatment with prior T2DM and prior metformin,793143,17797,New user of exenatide as 2nd-line treatment with prior T2DM and prior metformin,1583722
+17796,New user of dulaglutide as 2nd-line treatment with prior T2DM and prior metformin,45774435,17798,New user of empagliflozin as 2nd-line treatment with prior T2DM and prior metformin,45774751
+17796,New user of dulaglutide as 2nd-line treatment with prior T2DM and prior metformin,45774435,17799,New user of sitagliptin as 2nd-line treatment with prior T2DM and prior metformin,1580747
+17796,New user of dulaglutide as 2nd-line treatment with prior T2DM and prior metformin,45774435,17801,New user of glipizide as 2nd-line treatment with prior T2DM and prior metformin,1560171
+17797,New user of exenatide as 2nd-line treatment with prior T2DM and prior metformin,1583722,17798,New user of empagliflozin as 2nd-line treatment with prior T2DM and prior metformin,45774751
+17797,New user of exenatide as 2nd-line treatment with prior T2DM and prior metformin,1583722,17799,New user of sitagliptin as 2nd-line treatment with prior T2DM and prior metformin,1580747
+17797,New user of exenatide as 2nd-line treatment with prior T2DM and prior metformin,1583722,17801,New user of glipizide as 2nd-line treatment with prior T2DM and prior metformin,1560171
+17803,New user of semaglutide with prior T2DM and prior metformin and no insulin,793143,17804,New user of empagliflozin with prior T2DM and prior metformin and no insulin,45774751
+17803,New user of semaglutide with prior T2DM and prior metformin and no insulin,793143,17805,New user of sitagliptin with prior T2DM and prior metformin and no insulin,1580747
+17803,New user of semaglutide with prior T2DM and prior metformin and no insulin,793143,17806,New user of glipizide with prior T2DM and prior metformin and no insulin,1560171
+17803,New user of semaglutide with prior T2DM and prior metformin and no insulin,793143,17807,New user of dulaglutide with prior T2DM and prior metformin and no insulin,45774435
+17803,New user of semaglutide with prior T2DM and prior metformin and no insulin,793143,17808,New user of exenatide with prior T2DM and prior metformin and no insulin,1583722
+17809,New user of semaglutide as 2nd-line treatment with prior T2DM Dec2017-Jan2020,793143,17812,New user of empagliflozin as 2nd-line treatment with prior T2DM Dec2017-Jan2020,45774751
+17810,New user of semaglutide as 2nd-line treatment with prior T2DM Feb2020-Jun2021,793143,17813,New user of empagliflozin as 2nd-line treatment with prior T2DM Feb2020-Jun2021,45774751
+17811,New user of semaglutide as 2nd-line treatment with prior T2DM Jul2021-Dec2023,793143,17814,New user of empagliflozin as 2nd-line treatment with prior T2DM Jul2021-Dec2023,45774751

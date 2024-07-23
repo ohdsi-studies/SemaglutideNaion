@@ -1,0 +1,72 @@
+concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason,invalid_reason_caption,concept_code,domain_id,vocabulary_id,concept_class_id,valid_start_date,valid_end_date
+2108054,"Introduction of needle or intracatheter, vein",S,Standard,V,Valid,36000,Procedure,CPT4,CPT4,0,4102358400000
+2514608,"Home infusion/specialty drug administration, per visit (up to 2 hours)",N,Non-Standard,V,Valid,99601,Observation,CPT4,CPT4,1080691200000,4102358400000
+2514609,"Home infusion/specialty drug administration, per visit (up to 2 hours); each additional hour (List separately in addition to code for primary procedure)",N,Non-Standard,V,Valid,99602,Observation,CPT4,CPT4,1080691200000,4102358400000
+2614693,"Syringe, sterile, 20 cc or greater, each",S,Standard,V,Valid,A4213,Device,HCPCS,HCPCS,473385600000,4102358400000
+2614696,"Sterile water, saline and/or dextrose, diluent/flush, 10 ml",S,Standard,V,Valid,A4216,Device,HCPCS,HCPCS,1072915200000,4102358400000
+2614697,"Sterile water/saline, 500 ml",S,Standard,V,Valid,A4217,Device,HCPCS,HCPCS,1072915200000,4102358400000
+2614700,"Supplies for maintenance of non-insulin drug infusion catheter, per week (list drugs separately)",S,Standard,V,Valid,A4221,Device,HCPCS,HCPCS,852076800000,4102358400000
+2614701,"Infusion supplies for external drug infusion pump, per cassette or bag (list drugs separately)",S,Standard,V,Valid,A4222,Device,HCPCS,HCPCS,852076800000,4102358400000
+2614744,"Disposable drug delivery system, flow rate of 50 ml or greater per hour",S,Standard,V,Valid,A4305,Device,HCPCS,HCPCS,725846400000,4102358400000
+2616273,INTRAVENOUS INFUSION FOR THERAPY/DIAGNOSIS; UP TO 1 HOUR (Deprecated),S,Standard,V,Valid,C8950,Device,HCPCS,HCPCS,0,1294531200000
+2616274,INTRAVENOUS INFUSION FOR THERAPY/DIAGNOSIS; EACH ADDITIONAL HOUR (LIST SEPARATELY IN ADDITION TO C8950) (Deprecated),S,Standard,V,Valid,C8951,Device,HCPCS,HCPCS,0,1294531200000
+2616280,"Intravenous infusion for therapy/diagnosis; initiation of prolonged infusion (more than 8 hours), requiring use of portable or implantable pump",S,Standard,V,Valid,C8957,Device,HCPCS,HCPCS,1136073600000,4102358400000
+2616748,Iv pole,S,Standard,V,Valid,E0776,Device,HCPCS,HCPCS,473385600000,4102358400000
+2721475,"Home infusion therapy, implanted pump pain management infusion; administrative services, professional pharmacy services, care coordination, and all necessary supplies and equipment (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9328,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2721481,"Home infusion therapy, immunotherapy, administrative services, professional pharmacy services, care coordination, and all necessary supplies and equipment (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9338,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2721488,"Home infusion therapy, alpha-1-proteinase inhibitor (e.g., prolastin); administrative services, professional pharmacy services, care coordination, and all necessary supplies and equipment (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9346,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2721494,"Home infusion therapy, chelation therapy; administrative services, professional pharmacy services, care coordination, and all necessary supplies and equipment (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9355,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2721498,"Home infusion therapy, anti-spasmotic therapy; administrative services, professional pharmacy services, care coordination, and all necessary supplies and equipment (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9363,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2721507,"Home infusion therapy, hydration therapy; one liter per day, administrative services, professional pharmacy services, care coordination, and all necessary supplies and equipment (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9374,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2721510,"Home infusion therapy, hydration therapy; more than three liters per day, administrative services, professional pharmacy services, care coordination, and all necessary supplies (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9377,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2721511,"Home infusion therapy, infusion therapy, not otherwise classified; administrative services, professional pharmacy services, care coordination, and all necessary supplies and equipment (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9379,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2721569,"Home injectable therapy, not otherwise classified, including administrative services, professional pharmacy services, care coordination, and all necessary supplies and equipment (drugs and nursing visits coded separately), per diem",N,Non-Standard,V,Valid,S9542,Procedure,HCPCS,HCPCS,1009843200000,4102358400000
+2786181,"Introduction of Serum, Toxoid and Vaccine into Muscle, Percutaneous Approach",S,Standard,V,Valid,3E0234Z,Procedure,ICD10PCS,ICD10PCS,1398124800000,4102358400000
+4088217,Administration of medication,S,Standard,V,Valid,18629005,Procedure,SNOMED,Procedure,1012435200000,4102358400000
+4102748,Subcutaneous infusion,S,Standard,V,Valid,300036000,Procedure,SNOMED,Procedure,1012435200000,4102358400000
+4105895,Injection of substance,N,Non-Standard,U,Invalid,281706009,Procedure,SNOMED,Procedure,1012435200000,1675123200000
+4165358,Administration of electrolytes,S,Standard,V,Valid,47451004,Procedure,SNOMED,Procedure,1012435200000,4102358400000
+4196016,Administration of substance via intravenous route,N,Non-Standard,U,Invalid,431215000,Procedure,SNOMED,Procedure,1217462400000,1688083200000
+4301255,Body fluid replacement,S,Standard,V,Valid,78534001,Procedure,SNOMED,Procedure,1012435200000,4102358400000
+38003138,Pharmacy - General Classification,S,Standard,V,Valid,0250,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003146,Pharmacy - IV Solutions,S,Standard,V,Valid,0258,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003148,IV Therapy - General classification,S,Standard,V,Valid,0260,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003154,Medical/Surgical Supplies and Devices - General Classification,S,Standard,V,Valid,0270,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003155,Medical/Surgical Supplies and Devices - Non Sterile,S,Standard,V,Valid,0271,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003156,Medical/Surgical Supplies and Devices - Sterile,S,Standard,V,Valid,0272,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003162,Medical/Surgical Supplies and Devices - Other Implants,S,Standard,V,Valid,0278,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003163,Medical/Surgical Supplies and Devices - Other Supplies/Devices,S,Standard,V,Valid,0279,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003196,Radiology - Therapeutic - Chemotherapy - IV,S,Standard,V,Valid,0335,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003354,Drugs Identification - Drugs Requiring Detailed Coding,S,Standard,V,Valid,0636,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003356,Home IV Therapy - General Classification,S,Standard,V,Valid,0640,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003495,Other Therapeutic Services - General Classification,S,Standard,V,Valid,0940,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+42732722,"Chemotherapy administration, intravenous; push technique (Deprecated)",S,Standard,V,Valid,96408,Procedure,CPT4,CPT4,0,1139788800000
+42732723,"Chemotherapy administration, intravenous; infusion technique, up to one hour (Deprecated)",S,Standard,V,Valid,96410,Procedure,CPT4,CPT4,0,1139788800000
+42738323,"Intravenous infusion for therapy/diagnosis, administered by physician or under direct supervision of physician; up to one hour (Deprecated)",S,Standard,V,Valid,90780,Procedure,CPT4,CPT4,0,1139788800000
+42738324,"Intravenous infusion for therapy/diagnosis, administered by physician or under direct supervision of physician; each additional hour, up to eight (8) hours (List separately in addition to code for primary procedure) (Deprecated)",S,Standard,V,Valid,90781,Procedure,CPT4,CPT4,0,1139788800000
+42738325,"Therapeutic, prophylactic or diagnostic injection (specify material injected); subcutaneous or intramuscular (Deprecated)",S,Standard,V,Valid,90782,Procedure,CPT4,CPT4,0,1139788800000
+42740865,"Therapeutic, prophylactic or diagnostic injection (specify substance or drug); subcutaneous or intramuscular",S,Standard,V,Valid,90772,Procedure,CPT4,CPT4,1139788800000,1238976000000
+42740896,"Intravenous infusion, for therapy, prophylaxis, or diagnosis (specify substance or drug); concurrent infusion (List separately in addition to code for primary procedure)",N,Non-Standard,V,Valid,90768,Procedure,CPT4,CPT4,1139788800000,1457654400000
+42740928,"Intravenous infusion, for therapy, prophylaxis, or diagnosis (specify substance or drug); additional sequential infusion, up to 1 hour (List separately in addition to code for primary procedure)",S,Standard,V,Valid,90767,Procedure,CPT4,CPT4,1139788800000,1457654400000
+42740960,"Intravenous infusion, for therapy, prophylaxis, or diagnosis (specify substance or drug); each additional hour (List separately in addition to code for primary procedure)",S,Standard,V,Valid,90766,Procedure,CPT4,CPT4,1139788800000,1238976000000
+42740992,"Intravenous infusion, for therapy, prophylaxis, or diagnosis (specify substance or drug); initial, up to 1 hour",N,Non-Standard,V,Valid,90765,Procedure,CPT4,CPT4,1139788800000,1457654400000
+44782124,CONCURRENT INFUSION (Deprecated),N,Non-Standard,V,Valid,G0350,Procedure,HCPCS,HCPCS,0,1136073600000
+45889804,"Hydration, Therapeutic, Prophylactic, Diagnostic Injections and Infusions, and Chemotherapy and Other Highly Complex Drug or Highly Complex Biologic Agent Administration",C,Classification,V,Valid,1019103,Procedure,CPT4,CPT4 Hierarchy,1412899200000,4102358400000
+46272450,Long-term current use of drug therapy,S,Standard,V,Valid,710814002,Observation,SNOMED,Context-dependent,1438300800000,4102358400000
+2008419,Other miscellaneous procedures,S,Standard,V,Valid,99.99,Procedure,ICD9Proc,4-dig billing code,0,4102358400000
+967823,sodium chloride,S,Standard,V,Valid,9863,Drug,RxNorm,Ingredient,0,4102358400000
+38003279,Clinic - General Classification,S,Standard,V,Valid,0510,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+4036803,General examination of patient,S,Standard,V,Valid,162673000,Procedure,SNOMED,Procedure,1012435200000,4102358400000
+38003172,Laboratory - General Classification,S,Standard,V,Valid,0300,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003208,Operating Room Services - General Classification,S,Standard,V,Valid,0360,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+4203722,Patient encounter procedure,S,Standard,V,Valid,308335008,Observation,SNOMED,Procedure,1012435200000,4102358400000
+443364,Patient encounter status,S,Standard,V,Valid,305058001,Observation,SNOMED,Clinical Finding,1012435200000,4102358400000
+38003138,Pharmacy - General Classification,S,Standard,V,Valid,0250,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+4149140,Pharmacy service,S,Standard,V,Valid,310080006,Observation,SNOMED,Qualifier Value,1012435200000,4102358400000
+38003390,Recovery Room - General Classification,S,Standard,V,Valid,0710,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003406,Treatment/Observation Room - General Classification,S,Standard,V,Valid,0760,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003408,Treatment/Observation Room - Observation Room,S,Standard,V,Valid,0762,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003409,Treatment/Observation Room - Other,S,Standard,V,Valid,0769,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003213,Anesthesia - General Classification,S,Standard,V,Valid,0370,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003181,Laboratory Pathological - General Classification,S,Standard,V,Valid,0310,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
+38003183,Laboratory Pathological - Histology,S,Standard,V,Valid,0312,Revenue Code,Revenue Code,Revenue Code,0,4102358400000
