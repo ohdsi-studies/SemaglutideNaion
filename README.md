@@ -246,3 +246,39 @@ Strategus::execute(
 The main change is noted above whereby we comment out the analysis specification
 to use the `inst/cohortDiagnosticsAnalysisSpecification.json` and the rest of the
 code remains the same.
+
+
+## Sharing Results
+
+Once you have successfully executed the study, your results will be located in
+the folder: `D:/git/ohdsi-studies/SemaglutideNaion/results/<your databasename>/strategusOutput`.
+Within this folder you will see subfolders for each of the Strategus HADES analytical
+modules that produced results. These results are stored as CSV files which you can inspect
+before providing the results to the study coordinator.
+
+Once you have reviewed your results and are ready to provide them to the study
+coordinator, you can use the `ShareResults.R` script located in the root of the 
+project in `D:/git/ohdsi-studies/SemaglutideNaion`. This script will require some modifications
+to reflect the choices you made when running the study:
+
+```r
+##=========== START OF INPUTS ==========
+outputLocation <- 'D:/git/ohdsi-studies/SemaglutideNaion'
+databaseName <- "MDCD"
+# For uploading the results. You should have received the key file from the study coordinator:
+keyFileName <- "[location where you are storing: e.g. ~/keys/study-data-site-covid19.dat]"
+userName <- "[user name provided by the study coordinator: eg: study-data-site-covid19]"
+
+##=========== END OF INPUTS ==========
+```
+
+To explain these settings:
+
+- **outputLocation**: Set this to the path where you have your project, in our
+example `D:/git/ohdsi-studies/SemaglutideNaion`. This must match what you
+set in your `StrategusCodeToRun.R`.
+- **databaseName**: Set this to the name of your site's OMOP CDM database to 
+match what you set in your `StrategusCodeToRun.R`.
+- **keyFileName**: The path to an RSA private key that is provided by the study
+coordinator.
+- **userName**: The user name provided by the study coordinator.
