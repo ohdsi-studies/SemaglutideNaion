@@ -54,6 +54,7 @@ updatedPackages <- list(
   "OHDSI/CohortMethod@v5.3.0",
   "OHDSI/SelfControlledCaseSeries@v5.2.2",
   "OHDSI/ResultModelManager@v0.5.8",
-  "OHDSI/Strategus@4b90144536941c290b75f6e81ac1ec0d44a9738c"
+  "OHDSI/Strategus@4b90144536941c290b75f6e81ac1ec0d44a9738c",
+  "OHDSI/OhdsiSharing"
 )
 renv::record(updatedPackages)

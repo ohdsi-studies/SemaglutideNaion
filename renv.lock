@@ -124,6 +124,17 @@
       "Source": "Repository",
       "Repository": "CRAN"
     },
+    "OhdsiSharing": {
+      "Package": "OhdsiSharing",
+      "Version": "0.2.2",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "OHDSI",
+      "RemoteRepo": "OhdsiSharing",
+      "RemoteRef": "main",
+      "RemoteSha": "6fada2156ac78bfcd6ccea8ec4d6972e3bafa24f"
+    },
     "ParallelLogger": {
       "Package": "ParallelLogger",
       "Version": "3.3.0",
