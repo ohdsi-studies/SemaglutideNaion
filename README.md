@@ -1,13 +1,13 @@
 Estimation of risk of NAION and other vision disorders from exposure to semaglutide
 =============
 
-<img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Repo Created">
+<img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started">
 
 - Analytics use case(s): **Population-Level Estimation**
 - Study type: **Clinical Application**
 - Tags: **Eye Care & Vision Research, Type 2 Diabetes**
-- Study lead: **-**
-- Study lead forums tag: **[[Lead tag]](https://forums.ohdsi.org/u/[Lead tag])**
+- Study lead: **Cindy X. Cai**
+- Study lead forums tag: **[[Cindy X. Cai]](https://forums.ohdsi.org/u/cindyxcai)**
 - Study start date: **-**
 - Study end date: **-**
 - Protocol: **-**
