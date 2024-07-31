@@ -220,7 +220,7 @@ createPsArgs = CohortMethod::createCreatePsArgs(
     seed = 1, 
     resetCoefficients = TRUE, 
     tolerance = 2e-07, 
-    cvRepetitions = 10, 
+    cvRepetitions = 1, 
     startingVariance = 0.01
   )
 )
@@ -259,7 +259,7 @@ fitOutcomeModelArgs = CohortMethod::createFitOutcomeModelArgs(
     resetCoefficients = TRUE,
     startingVariance = 0.01, 
     tolerance = 2e-07, 
-    cvRepetitions = 10, 
+    cvRepetitions = 1, 
     noiseLevel = "quiet"
   )
 )
