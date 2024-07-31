@@ -185,7 +185,7 @@ outcomeList <- append(
   })
 )
 targetComparatorOutcomesList <- list()
-for (i in seq_along(cmTcList)) {
+for (i in seq_len(nrow(cmTcList))) {
   targetComparatorOutcomesList[[i]] <- CohortMethod::createTargetComparatorOutcomes(
     targetId = cmTcList$targetCohortId[i],
     comparatorId = cmTcList$comparatorCohortId[i],
