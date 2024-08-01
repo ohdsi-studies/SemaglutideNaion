@@ -342,12 +342,6 @@
       "Source": "Repository",
       "Repository": "CRAN"
     },
-    "duckdb": {
-      "Package": "duckdb",
-      "Version": "0.10.2",
-      "Source": "Repository",
-      "Repository": "CRAN"
-    },
     "fansi": {
       "Package": "fansi",
       "Version": "1.0.4",
