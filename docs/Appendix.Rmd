@@ -1,0 +1,166 @@
+# Study Population Cohort Definitions
+
+```{r study-population-cohorts, echo=FALSE, results="asis", warning=FALSE, message=FALSE}
+
+printCohortDefinitionFromNameAndJson(name = "Persons with Type 2 diabetes mellitus and no prior T1DM or secondary diabetes",
+                                     json = SqlRender::readSql("../inst/cohorts/17795_Persons with Type 2 diabetes mellitus and no prior T1DM or secondary diabetes.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of semaglutide as 2nd-line treatment with prior T2DM and prior metformin",
+                                     json = SqlRender::readSql("../inst/cohorts/17793_New user of semaglutide as 2nd-line treatment with prior T2DM and prior metformin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of semaglutide as 2nd-line treatment with prior T2DM Dec2017-Jan2020",
+                                     json = SqlRender::readSql("../inst/cohorts/17809_New user of semaglutide as 2nd-line treatment with prior T2DM Dec2017-Jan2020.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of semaglutide as 2nd-line treatment with prior T2DM Feb2020-Jun2021",
+                                     json = SqlRender::readSql("../inst/cohorts/17810_New user of semaglutide as 2nd-line treatment with prior T2DM Feb2020-Jun2021.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of semaglutide as 2nd-line treatment with prior T2DM Jul2021-Dec2023",
+                                     json = SqlRender::readSql("../inst/cohorts/17811_New user of semaglutide as 2nd-line treatment with prior T2DM Jul2021-Dec2023.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of semaglutide with prior T2DM and prior metformin and no insulin",
+                                     json = SqlRender::readSql("../inst/cohorts/17803_New user of semaglutide with prior T2DM and prior metformin and no insulin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of dulaglutide as 2nd-line treatment with prior T2DM and prior metformin",
+                                     json = SqlRender::readSql("../inst/cohorts/17796_New user of dulaglutide as 2nd-line treatment with prior T2DM and prior metformin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of dulaglutide with prior T2DM and prior metformin and no insulin",
+                                     json = SqlRender::readSql("../inst/cohorts/17807_New user of dulaglutide with prior T2DM and prior metformin and no insulin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of exenatide as 2nd-line treatment with prior T2DM and prior metformin",
+                                     json = SqlRender::readSql("../inst/cohorts/17797_New user of exenatide as 2nd-line treatment with prior T2DM and prior metformin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of exenatide with prior T2DM and prior metformin and no insulin",
+                                     json = SqlRender::readSql("../inst/cohorts/17808_New user of exenatide with prior T2DM and prior metformin and no insulin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of empagliflozin as 2nd-line treatment with prior T2DM and prior metformin",
+                                     json = SqlRender::readSql("../inst/cohorts/17798_New user of empagliflozin as 2nd-line treatment with prior T2DM and prior metformin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of empagliflozin as 2nd-line treatment with prior T2DM Dec2017-Jan2020",
+                                     json = SqlRender::readSql("../inst/cohorts/17812_New user of empagliflozin as 2nd-line treatment with prior T2DM Dec2017-Jan2020.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of empagliflozin as 2nd-line treatment with prior T2DM Feb2020-Jun2021",
+                                     json = SqlRender::readSql("../inst/cohorts/17813_New user of empagliflozin as 2nd-line treatment with prior T2DM Feb2020-Jun2021.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of empagliflozin as 2nd-line treatment with prior T2DM Jul2021-Dec2023",
+                                     json = SqlRender::readSql("../inst/cohorts/17814_New user of empagliflozin as 2nd-line treatment with prior T2DM Jul2021-Dec2023.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of empagliflozin with prior T2DM and prior metformin and no insulin",
+                                     json = SqlRender::readSql("../inst/cohorts/17804_New user of empagliflozin with prior T2DM and prior metformin and no insulin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of sitagliptin as 2nd-line treatment with prior T2DM and prior metformin",
+                                     json = SqlRender::readSql("../inst/cohorts/17799_New user of sitagliptin as 2nd-line treatment with prior T2DM and prior metformin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of sitagliptin with prior T2DM and prior metformin and no insulin",
+                                     json = SqlRender::readSql("../inst/cohorts/17805_New user of sitagliptin with prior T2DM and prior metformin and no insulin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of glipizide as 2nd-line treatment with prior T2DM and prior metformin",
+                                     json = SqlRender::readSql("../inst/cohorts/17801_New user of glipizide as 2nd-line treatment with prior T2DM and prior metformin.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "New user of glipizide with prior T2DM and prior metformin and no insulin",
+                                     json = SqlRender::readSql("../inst/cohorts/17806_New user of glipizide with prior T2DM and prior metformin and no insulin.json"),
+                                     withConcepts = TRUE)
+
+```
+
+# Exposure Cohort Definitions
+
+
+```{r exposure-cohorts, echo=FALSE, results="asis", warning=FALSE, message=FALSE}
+printCohortDefinitionFromNameAndJson(name = "Semaglutide (GLP-1RA) exposure",
+                                     json = SqlRender::readSql("../inst/cohorts/17816_semaglutide exposures.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Dulaglutide (GLP-1RA) exposure",
+                                     json = SqlRender::readSql("../inst/cohorts/17817_dulaglutide exposures.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Exenatide (GLP-1RA) exposure",
+                                     json = SqlRender::readSql("../inst/cohorts/17818_exenatide exposures.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Empagliflozin (SGLT2 inhibitor) exposure",
+                                     json = SqlRender::readSql("../inst/cohorts/17819_empagliflozin exposures.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Sitagliptin (DPP4 inhibitor) exposure",
+                                     json = SqlRender::readSql("../inst/cohorts/17820_sitagliptin exposures.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Glipizide (Sulfonylurea) exposure",
+                                     json = SqlRender::readSql("../inst/cohorts/17821_glipizide exposures.json"),
+                                     withConcepts = TRUE)
+
+```
+
+# Outcome Cohort Definitions
+
+```{r outcome-cohorts, echo=FALSE, results="asis", warning=FALSE, message=FALSE}
+
+printCohortDefinitionFromNameAndJson(name = "Nonarteric anterior ischemic neuropathy with index date correction and 2dxGCA",
+                                     json = SqlRender::readSql("../inst/cohorts/17760_Nonarteric anterior ischemic neuropathy with index date correction and 2dxGCA.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Nonarteric anterior ischemic neuropathy with index date correction and 2nd dx and 2dxGCA",
+                                     json = SqlRender::readSql("../inst/cohorts/17761_Nonarteric anterior ischemic neuropathy with index date correction and 2nd dx and 2dxGCA.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Proliferative diabetic retinopathy",
+                                     json = SqlRender::readSql("../inst/cohorts/17706_Proliferative diabetic retinopathy.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Treatment-requiring Diabetic Retinopathy or Macular Edema",
+                                     json = SqlRender::readSql("../inst/cohorts/17815_Treatment-requiring Diabetic Retinopathy or Macular Edema.json"),
+                                     withConcepts = TRUE)
+
+printCohortDefinitionFromNameAndJson(name = "Treatment-requiring Diabetic Retinopathy or Macular Edema including vitrectomy",
+                                     json = SqlRender::readSql("../inst/cohorts/17788_Treatment-requiring Diabetic Retinopathy or Macular Edema including vitrectomy.json"),
+                                     withConcepts = TRUE)
+
+```
+
+# Negative Control Concepts
+
+\captionsetup{labelformat=empty}
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+negative_controls <- readr::read_csv("../inst/negativeControlOutcomes.csv") %>%
+  select(conceptid, conceptname) %>%
+  rename("Concept ID" = conceptid, "name" = conceptname) %>%
+  arrange(name)
+
+colnames(negative_controls) <- c("", "Concept ID")
+
+tab <- kable(negative_controls, booktabs = TRUE, linesep = "", longtable = TRUE,
+      caption = "Negative outcome controls specified through condition occurrences that map to (a descendent of) the indicated concept ID") %>%
+  kable_styling(bootstrap_options = "striped", latex_options = "striped")
+
+if (knitr::is_latex_output()) {
+  tab %>%
+    column_spec(1, width = "40em") %>%
+    column_spec(2, width = "15em") %>%
+    kable_styling(font_size = latex_table_font_size,
+                  latex_options = c("repeat_header"),
+                  repeat_header_continued = "\\textit{(Continued on Next Page...)}")
+
+} else {
+  tab
+}
+```

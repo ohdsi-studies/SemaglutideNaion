@@ -1,0 +1,30 @@
+```{r abbreviations, echo=FALSE, message=FALSE}
+abbreviations <- readr::read_delim(col_names = FALSE, delim = ";", trim_ws = TRUE, file = "
+  NAION; Non-arteritic ischemic optic neuropathy
+  DR; Diabetic retinopathy
+  PDR; Proliferative diabetic retinopathy
+  DME; Diabetic macular edema
+  VR; Vitreoretinal
+  GLP-1 RA; Glucagon-like peptide 1 receptor agonist
+  SGLT2; Sodium-glucose cotransporter -2
+  DPP4; Dipeptidyl peptidase-4
+  T2DM; Type 2 diabetes mellitus
+  VO; Vein occlusion
+  AO; Artery occlusion
+  AMD; Age-related macular degeneration
+  GCA; Giant cell arteritis
+  EASE; Expected Absolute Systematic Error
+  MDRR; Minimum Detectable Relative Risk
+  OHDSI; Observational Health Data Sciences and Informatics
+  ARVO; The Association for Research in Vision and Ophthalmology
+")
+
+tab <- kable(abbreviations, col.names = NULL, linesep = "", booktabs = TRUE)
+
+if (knitr::is_latex_output()) {
+  tab %>% kable_styling(latex_options = c("striped", "hold_position"),
+                        font_size = latex_table_font_size)
+} else {
+  tab %>% kable_styling(bootstrap_options = "striped")
+}
+```

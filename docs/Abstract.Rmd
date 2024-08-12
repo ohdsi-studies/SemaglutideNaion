@@ -1,0 +1,12 @@
+**Background**: Despite its cardiovascular and kidney benefits, semaglutide has been recently linked to severe ophthalmic complications including non-arteritic ischemic optic neuropathy (NAION) as well as worsening of diabetic retinopathy (DR).
+
+**Purpose**: To estimate the risk of these ophthalmic complications, NAION and DR worsening, with semaglutide use compared with other non-GLP-1 RA medications (including empagliflozin, sitagliptin, and glipizide) among adults with type 2 diabetes mellitus.
+
+**Design**: Retrospective study employing an active comparator, new-user cohort design
+
+**Subjects**: Adults (≥ 18 years) with type 2 diabetes mellitus who are new users of semaglutide (a GLP-1 RA), dulaglutide (a GLP-1 RA), exenatide (a GLP-1 RA), empagliflozin (an SGLT2 inhibitor), sitagliptin (a DPP4 inhibitor), or glipizide (a sulfonylurea)
+
+**Methods**: Patients receiving semaglutide will be compared to propensity score matched patients with each of the other GLP-1 RA and non-GLP-1 RA medications. We will deploy the large-scale propensity score method that adjusts for a comprehensive range of baseline characteristics. Cox models will be used to compare the time to NAION or DR worsening between patients who receive semaglutide with patients who receive empagliflozin, sitagliptin, and glipizide. Similar comparisons will be made between the other GLP-1 RA (namely dulaglutide and exenatide) with each of the comparators.
+
+**Conclusions**: Clarifying the risk of severe ophthalmic complications associated with semaglutide (and other GLP-1 RA) by 1) characterizing the incidence in the exposed population, and 2) estimating the risk of exposure will help guide the appropriate use of this medication.
+
