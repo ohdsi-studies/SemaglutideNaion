@@ -1,0 +1,189 @@
+# Rationale and Background
+
+Semaglutide, a glucagon-like peptide-1 receptor agonist (GLP-1 RA), is approved by the US Food and Drug Administration (FDA) for the treatment of type 2 diabetes mellitus. It has been shown to reduce the rate of cardiovascular death, nonfatal myocardial infarction, and nonfatal stroke in patients with type 2 diabetes at high cardiovascular risk.[@marso_semaglutide_2016] Furthermore, results from the recent FLOW trial suggest that semaglutide can reduce clinically important kidney outcomes and death from cardiovascular causes in patients with type 2 diabetes mellitus and chronic kidney disease.[@perkovic_effects_2024] Given their benefit, the American Diabetes Association’s Standards of Medical Care in Diabetes recommends GLP-1 RA as one of the two preferred options for add-on therapy in patients with type 2 diabetes mellitus and established atherosclerotic cardiovascular disease after lifestyle intervention and metformin.[@american_diabetes_association_professional_practice_committee_9_2021]
+
+Despite the benefits of semaglutide for treatment of type 2 diabetes mellitus, recent studies raise the concern of adverse ophthalmic consequences—non-arteritic ischemic optic neuropathy (NAION) and progression of diabetic retinopathy (DR).
+
+NAION is a rare acute ischemic injury to the optic nerve with an incidence of 2-10/100,000 people per year and resulting in blindness in nearly a quarter of affected patients.[@mollan_semaglutide_2024;@hayreh_nonarteritic_2008] In addition to anatomic characteristics that predispose certain optic nerves to this ischemic event, there are also known systemic risk factors including diabetes mellitus, hypertension, dyslipidemia, and obstructive sleep apnea.[@mollan_semaglutide_2024] A recent study published in JAMA Ophthalmology linked the use of semaglutide with an increased risk for NAION as compared with non-GLP-1 RA.[@hathaway_risk_2024]
+
+In 2016, the SUSTAIN-6 trial evaluating semaglutide identified a risk of DR complications which included vitreous hemorrhage, DR-related blindness, and intravitreal pharmacotherapy and laser photocoagulation compared with placebo.1 The increased risk for retinopathy appeared to be confirmed on meta-analysis.[@albert_glucagon-like_2023] Since then, multiple retrospective studies have not shown a difference in the risk of DR worsening, the largest of which included ~400,000 adults with diabetes.[@barkmeier_comparative_2024;@stevens_long-term_2024; @sharma_semaglutide_2022;@joo_effect_2024]
+
+
+# Study Objectives
+
+The purpose of this study is to investigate three concerning ophthalmic complications (NAION and worsening of DR) from use of semaglutide for the treatment of type 2 diabetes mellitus.
+
+1. Among patients with type 2 diabetes mellitus, is the risk for NAION higher among patients who use semaglutide as compared with a non-GLP-1 RA anti-diabetic medication?
+2. Among patients with types 2 diabetes mellitus, is the risk for DR progression higher among patients who use semaglutide as compared with a non-GLP-1 RA anti-diabetic medication?
+3. Among patients with type 2 diabetes mellitus, is the risk for NAION higher among patients who use semaglutide as compared with other GLP-1 RA anti-diabetic medications?
+
+
+# Research Methods
+
+## Study Design/Data Source(s)
+
+This will be a retrospective cohort study employing an active comparator, new-user cohort design, comparing the risk of NAION and DR worsening among adults with types 2 diabetes mellitus exposed to semaglutide compared with other GLP-1 RA medications and non-GLP-1 RA anti-diabetic medications. Other GLP-1 RA medications will include dulaglutide and exenatide. Non-GLP-1 RA comparators will include other second-line treatments for diabetes including empagliflozin (a SGLT2 inhibitor), sitagliptin (a DPP4 inhibitor), and glipizide (a sulfonylurea). These comparators were chosen based on the most commonly occurring medication within those classes from the LEGEND-T2DM study. (https://ohdsi-studies.github.io/LegendT2dm/Protocol)
+
+## Study Population
+
+We will include all adults (≥ 18 years) with type 2 diabetes mellitus in each data source who meet the cohort entry criteria for each exposure cohort (detailed below).
+
+## Exposures {#exposures}
+The exposure is receipt of semaglutide (GLP-1 RA), dulaglutide (GLP-1RA), exenatide (GLP-1 RA), empagliflozin (a SGLT2 inhibitor), sitagliptin (a DPP4 inhibitor), or glipizide (a sulfonylurea) based on the definitions of LEGEND-T2DM. (https://ohdsi-studies.github.io/LegendT2dm/Protocol) In brief, these will include patients with T2DM with prior metformin monotherapy who initiate treatment with one of the four medications. Patients have to have one year of observation prior to the index date, no prior drug exposure to a comparator second-line or anti-diabetic agents, and at most 30 days of insulin exposure before the index date.
+
+As a sensitivity analysis, we will examine patients with each of these anti-diabetic medication exposures but without the second-line therapy requirement, meaning that they can be on another anti-diabetic medication at the time of cohort entry.
+
+## Outcomes {#outcomes}
+
+The outcomes are NAION and DR worsening.
+
+NAION will have two definitions, one designed to be more specific and one designed to be more sensitive:
+
+- NAION-specific:
+
+    1. 2 instances of ION diagnosis codes on separate days (within 90 days of each other)
+    2. If the 2 diagnoses of ION are preceded by the following diagnoses within the prior 60 days, then use the occurrence of these prior diagnosis to mark the start date of the outcome
+        + Visual field defect
+        + Optic disc disorder
+            + Includes concepts of optic papillitis (concept ID 435269), and “other disorders of optic disc”
+        + Optic neuritis
+            + Includes “Unspecified” and “Other” optic neuritis
+        + Optic disc edema
+            + Includes papilledema
+    3. Exclude patients who have 2 diagnoses of giant cell arteritis (GCA) any time before or after outcome start date
+    4. Exclude patients with a diagnosis of traumatic optic neuropathy before  outcome start date)
+
+- NAION-sensitive:
+
+    1. 1 instance of ION diagnosis code
+    2. Adjustment to the start of the outcome (same ones as above)
+    3. Exclude patients with 2 instances of GCA (any time before or after index date)
+    4. Exclude patients with a diagnosis of traumatic optic neuropathy (before outcome start date)
+
+DR worsening is defined as:
+- New-onset PDR
+- Treatment-requiring DR/DME
+    1. New exposure to anti-VEGF medication, procedure for focal laser photocoagulation, or panretinal photocoagulation
+    2. Has to have a diagnosis of DR/DME within 90 days of the outcome start date
+    3. Exclude patients with diagnosis of VO/AO if ever in the days prior to outcome start date
+    4. Exclude patients withAMD in the 365 days prior to outcome start date
+- Treatment-requiring DR/DME (including VR surgery)
+    1. In addition to above, also add exposure to vitreoretinal surgery (mechanical vitrectomy by pars plana approach Concept ID 4314406)
+        + CPT Codes to include: 67036, 67039, 67040, 67041, 67042, 67113
+        + CPT Codes to exclude: 67108, 67107
+
+
+## Covariates
+
+We will deploy the large-scale propensity score method that adjusts for a comprehensive range of baseline characteristic.[@tian_evaluating_2018]
+
+## Negative Controls
+
+Negative controls will be picked to represent exposure-outcome pairs where no causal effect is expected to exist. We will adapt the set of negative controls that was used in LEGEND-T2DM (https://ohdsi-studies.github.io/LegendT2dm/Protocol). (See full list located below)
+
+# Data Analysis Plan
+
+## General
+
+Although the primary aim of this study is a comparative safety study, various standardized analytics available in the OHDSI community will be applied. The Strategus pipeline will be used to call various packages in the HADES library for A) data characterization (A1‑cohort diagnostics, A2‑cohort features, A3‑incidence rates, A4-time-to-event), B) population-level effect estimation (C1--comparative cohort study, C2‑‑self-controlled case-series).[@noauthor_ohdsistrategus_2024;@schuemie_health-analytics_2024]
+
+## Data Characterization
+
+### Cohort Diagnostics
+
+The R package CohortDiagnostics will be executed for all target, comparator, indication, and outcome cohorts to evaluate measurement error in the phenotype development and evaluation process.[@rao_cohortdiagnostics_2023]
+
+### Cohort Features
+
+The Characterization and FeatureExtraction packages in HADES will be used to identify features of patients in each exposure group who had the outcome and those who did not have the outcome.14 Features will be extracted from the 365 day observation prior to cohort entry and will include variables such as demographic data (sex, age group, race, ethnicity), prior conditions/drug exposures/procedures/measurements/devices/observations, and risk scores (e.g., Charlson comorbidity index, DCSI, CHADS2VASC score).
+
+### Incidence Rates
+
+The Characterization package in HADES will be used to calculate the incidence rates of the outcome for each exposure cohort and indication cohort. The rate is calculated as the number of outcomes during the time-at-risk divided by the number of total person days.
+
+#### Calculation of time-at-risk
+
+The primary method of calculating time-at-risk will be while the patient is “on-treatment”. This is defined as from the start of cohort entry (or diabetes drug initiation) until the end of the continuous drug exposure, defined as a gap in exposure of >30 days, end of continuous observation period, or study period. The second method of calculating time-at-risk is based on “intent-to-treat”, which will be used as a sensitivity analysis. In this analysis, patients are analyzed according to the first diabetes medication drug cohort they enter, regardless of switching from one cohort to another.
+
+### Time-to-Event
+
+Time to the outcomes of NAION or DR worsening (as defined above) will be calculated for each exposure cohort.
+
+## Population-Level Effect Estimation
+
+### Comparative Cohort Study
+
+The CohortMethod and Cyclops packages in Hades will be used.14 Large-scale propensity score methods will be used to match the targe exposure cohort with the comparator export cohort (e.g., semaglutide vs empagliflozin) using 1:1 propensity score matching. Given the concern for increasing usage of semaglutide in recent years, we will also perform a sensitivity analysis with calendar year restriction: Dec2017-Jan2020, Feb2020-June2021, July2021-Dec2023. Cox proportional hazards models will be used to estimate the risk of NAION and separately DR progression while on treatment using the intent-to-treat design.[@cox_regression_1972] Negative controls will be used to assess residual bias.
+
+### Self-Controlled Case Series
+
+The SelfControlledCaseSeries and Cyclops packages in Hades will be used to estimate the relative incidence of NAION or DR progression using a self-controlled case-series design.[@schuemie_health-analytics_2024] Diagnostics will be run to evaluate whether this was an appropriate analysis.
+
+# Study Diagnostics
+
+1. Preference score distributions to evaluate empirical equipoise and population generalizability
+2. Extensive patient characteristics to evaluate cohort balance before and after propensity score adjustment
+3. Negative control calibration plots to assess residual bias
+4. Kaplan-Meier plots to examine hazard ratio proportionality assumptions
+
+## Diagnostic Thresholds for Cohort Method
+
+```{r diagnostic-thresholds-cohort, echo=FALSE, message=FALSE}
+abbreviations <- readr::read_delim(col_names = FALSE, delim = ";", trim_ws = TRUE, file = "
+**Study Diagnostics**; **Threshold**
+
+Covariate balance (Standardized Mean Difference); <0.1
+Empirical Equipoise (Preference Score); >0.1
+Residual Bias (Expected Absolute Systematic Error (EASE)); <0.25
+Meta-analysis Heterogeneity; <0.4
+Meta-analysis Minimum Detectable Relative Risk (MDRR); <10
+")
+
+tab <- kable(abbreviations, col.names = NULL, linesep = "", booktabs = TRUE)
+
+if (knitr::is_latex_output()) {
+  tab %>% kable_styling(latex_options = c("striped", "hold_position"),
+                        font_size = latex_table_font_size)
+} else {
+  tab %>% kable_styling(bootstrap_options = "striped")
+}
+```
+
+## Diagnostic Thresholds for Self-Controlled Case-Series
+
+```{r diagnostic-thresholds-sccs, echo=FALSE, message=FALSE}
+abbreviations <- readr::read_delim(col_names = FALSE, delim = ";", trim_ws = TRUE, file = "
+**Study Diagnostics**; **Threshold**
+
+Covariate balance (Standardized Mean Difference); <0.1
+Pre-exposure; >0.05
+Time Trend; >0.05
+EASE; <0.25
+Meta-analysis Heterogeneity; <0.4
+Meta-analysis MDRR; <10
+")
+
+tab <- kable(abbreviations, col.names = NULL, linesep = "", booktabs = TRUE)
+
+if (knitr::is_latex_output()) {
+  tab %>% kable_styling(latex_options = c("striped", "hold_position"),
+                        font_size = latex_table_font_size)
+} else {
+  tab %>% kable_styling(bootstrap_options = "striped")
+}
+```
+
+# Strengths and Limitations {#strengths-limitations}
+
+When executed, this will be the largest study examining the association between semaglutide and the risk of NAION and DR progression. Other strengths of this study include the diversity of the sample (from multiple institutions, multiple countries), and rigorous study design.
+
+Limitations are mainly due to the retrospective nature of the study which might have confounding despite propensity score matching and stratified analyses. Additionally, unlike single-site studies, the diagnosis of NAION cannot be confirmed from manual review of patient records.
+
+
+# Protection of Human Subjects
+
+Each participating institution will seek IRB approval for this study as dictated by local governance.
+
+# Plans for Disseminating and Communicating Study Results
+
+The results will be shared and discussed among the study participants and broader OHDSI community during the weekly Tuesday community calls. This work will be presented at conferences (OHDSI Global Symposium and/or ARVO) and published as a manuscript.

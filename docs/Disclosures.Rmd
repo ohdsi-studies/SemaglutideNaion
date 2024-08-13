@@ -1,0 +1,2 @@
+This study is undertaken within Observational Health Data Sciences and Informatics (OHDSI), an open collaboration.
+
