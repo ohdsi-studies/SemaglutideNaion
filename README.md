@@ -10,7 +10,7 @@ Estimation of risk of NAION and other vision disorders from exposure to semaglut
 - Study lead forums tag: **[[Cindy X. Cai]](https://forums.ohdsi.org/u/cindyxcai)**
 - Study start date: **-**
 - Study end date: **-**
-- Protocol: **<a href="docs/Protocol.html</a>**
+- Protocol: **<a href="docs/Protocol.html">HTML Document</a>**
 - Publications: **-**
 - Results explorer: **-**
 
