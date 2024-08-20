@@ -11,7 +11,8 @@
 
 ##=========== START OF INPUTS ==========
 outputLocation <- 'D:/git/ohdsi-studies/SemaglutideNaion'
-databaseName <- "Pharmetrics"
+databaseName <- "CCAE"
+minCellCount <- 5
 
 ## Do not change below this line -------------
 resultsFolder = file.path(outputLocation, "results", databaseName, "strategusOutput")
@@ -32,8 +33,28 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(
 connection <- DatabaseConnector::connect(connectionDetails)
 sql <- "SELECT * from main.c_covariates;"
 x <- DatabaseConnector::querySql(connection = connection, sql = sql)
+
+# Apply minCellCount
+censor <- function(data, minValues) {
+  values <- pull(data, "SUM_VALUE")
+  toCensor <- !is.na(values) & (values < minValues) & (values != 0)
+  if (all(is.na(toCensor)) || all(is.na(minValues))) {
+    data[, "SUM_VALUE"] <- NA
+    data[, "AVERAGE_VALUE"] <- NA
+  } else if (length(minValues) == 1) {
+    data[toCensor, "SUM_VALUE"] <- -minValues
+    data[toCensor, "AVERAGE_VALUE"] <- 0
+  } else {
+    data[toCensor, "SUM_VALUE"] <- -minValues[toCensor]
+    data[toCensor, "AVERAGE_VALUE"] <- 0
+  }
+  return(data)  
+}
+
+censoredData <- censor(x, minCellCount)
+
 readr::write_csv(
-  x = x,
+  x = censoredData,
   file = file.path(resultsFolder, "CharacterizationModule", "c_covariates.csv")
 )
 DatabaseConnector::disconnect(connection)
