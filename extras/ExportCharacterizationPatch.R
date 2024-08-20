@@ -8,6 +8,7 @@
 # values that were used in the StrategusCodeToRun.R
 #
 # -------------------------------------------------------
+library(dplyr)
 
 ##=========== START OF INPUTS ==========
 outputLocation <- 'D:/git/ohdsi-studies/SemaglutideNaion'
