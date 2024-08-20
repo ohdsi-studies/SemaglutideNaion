@@ -57,6 +57,13 @@ csl: bmj.csl
 ---
 
 ```{r setup, include=FALSE}
+
+# If just working on protocol, run the following to install necessary packages
+# install.packages("bookdown")
+# install.packages("rJava") # Make sure rJava is configured: "R CMD javareconf"
+# install.packages("CirceR")
+# install.packages("SqlRender")
+
 source("utils.R")
 knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
 options(kableExtra.latex.load_packages = FALSE)
