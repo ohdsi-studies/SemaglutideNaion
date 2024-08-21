@@ -91,7 +91,7 @@ Various standardized analytics available in the OHDSI community will be applied.
 
 ### Cohort Diagnostics
 
-The R package CohortDiagnostics will be executed for all target, comparator, indication, and outcome cohorts to evaluate measurement error in the phenotype development and evaluation process.[@rao_cohortdiagnostics_2023]
+The R package CohortDiagnostics will be executed for all target, comparator, indication, and outcome cohorts to evaluate measurement error in the phenotype development and evaluation process.
 
 ### Cohort Features
 
@@ -155,11 +155,9 @@ if (knitr::is_latex_output()) {
 abbreviations <- readr::read_delim(col_names = FALSE, delim = ";", trim_ws = TRUE, file = "
 **Study Diagnostics**; **Threshold**
 
-Covariate balance (Standardized Mean Difference); <0.1
 Pre-exposure; >0.05
 Time Trend; >0.05
 EASE; <0.25
-Meta-analysis Heterogeneity; <0.4
 Meta-analysis MDRR; <10
 ")
 
