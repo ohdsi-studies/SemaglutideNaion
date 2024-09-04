@@ -1,6 +1,6 @@
 library(dplyr)
 library(Strategus)
-rootFolder <- "D:/git/ohdsi-studies/SemaglutideNaion"
+rootFolder <- "E:/git/ohdsi-studies/SemaglutideNaion"
 
 
 timeAtRisks <- tibble(
@@ -33,6 +33,11 @@ sccsIList <- CohortGenerator::readCsv("inst/sccsIList.csv")
 oList <- CohortGenerator::readCsv("inst/oList.csv")
 ncoList <- CohortGenerator::readCsv("inst/negativeControlOutcomes.csv")
 excludedCovariateConcepts <- CohortGenerator::readCsv("inst/excludedCovariateConcepts.csv")
+
+# LIMIT FOR TESTING ONLY!
+cmTcList <- cmTcList[cmTcList$targetCohortId == 17793 & cmTcList$comparatorCohortId == 17798,]
+sccsTList <- sccsTList[sccsTList$targetCohortId == 17816,]
+oList <- oList[oList$outcomeCohortId == 17761,]
 
 # Get the list of cohorts
 cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
@@ -77,7 +82,6 @@ negativeControlsShared <- cgModuleSettingsCreator$createNegativeControlOutcomeCo
   detectOnDescendants = TRUE
 )
 cohortGeneratorModuleSpecifications <- cgModuleSettingsCreator$createModuleSpecifications(
-  incremental = TRUE,
   generateStats = TRUE
 )
 
@@ -86,11 +90,14 @@ cModuleSettingsCreator <- CharacterizationModule$new()
 characterizationModuleSpecifications <- cModuleSettingsCreator$createModuleSpecifications(
   targetIds = cohortDefinitionSet$cohortId, # NOTE: This is all T/C/I/O
   outcomeIds = oList$outcomeCohortId,
+  minPriorObservation = 365,
   dechallengeStopInterval = 30,
   dechallengeEvaluationWindow = 30,
-  timeAtRisk = timeAtRisks,
-  minPriorObservation = 365,
-  covariateSettings = FeatureExtraction::createDefaultCovariateSettings()
+  # NOTE - TAR settings changed so just using
+  # defaults for testing purposes
+  #timeAtRisk = timeAtRisks,
+  covariateSettings = FeatureExtraction::createDefaultCovariateSettings(),
+  minCharacterizationMean = .01
 )
 
 
