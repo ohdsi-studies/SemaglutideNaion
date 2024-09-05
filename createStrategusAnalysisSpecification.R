@@ -48,6 +48,8 @@ cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
   cohortFileNameValue = c("cohortId", "cohortName")
 )
 
+# LIMIT FOR TESTING ONLY!
+cohortDefinitionSet <- cohortDefinitionSet[cohortDefinitionSet$cohortId %in% c(17793, 17798, 17816, 17761, 17795),]
 subset1 <- CohortGenerator::createCohortSubsetDefinition(
   name = "Calendar limit",
   definitionId = 1,
@@ -446,9 +448,9 @@ analysisSpecifications <- Strategus::createEmptyAnalysisSpecificiations() |>
   Strategus::addSharedResources(negativeControlsShared) |>
   Strategus::addModuleSpecifications(cohortGeneratorModuleSpecifications) |>
   Strategus::addModuleSpecifications(characterizationModuleSpecifications) %>%
-  Strategus::addModuleSpecifications(cohortIncidenceModuleSpecifications) %>%
-  Strategus::addModuleSpecifications(cohortMethodModuleSpecifications) %>%
-  Strategus::addModuleSpecifications(selfControlledModuleSpecifications)
+  Strategus::addModuleSpecifications(cohortIncidenceModuleSpecifications) #%>%
+  #Strategus::addModuleSpecifications(cohortMethodModuleSpecifications) %>%
+  #Strategus::addModuleSpecifications(selfControlledModuleSpecifications)
 
 if (!dir.exists(rootFolder)) {
   dir.create(rootFolder, recursive = TRUE)

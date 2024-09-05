@@ -63,10 +63,21 @@ ParallelLogger::saveSettingsToJson(
   fileName = file.path(outputLocation, "results", databaseName, "executionSettings.json")
 )
 
+
 Strategus::execute(
   analysisSpecifications = analysisSpecifications,
   executionSettings = executionSettings,
   connectionDetails = connectionDetails
 )
+
+
+# # Debug the char module
+# charModule <- Strategus::CharacterizationModule$new()
+# debugonce(charModule$execute)
+# charModule$execute(
+#   analysisSpecifications = analysisSpecifications,
+#   executionSettings = executionSettings,
+#   connectionDetails = connectionDetails
+# )
 
 
