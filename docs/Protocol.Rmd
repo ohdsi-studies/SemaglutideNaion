@@ -54,6 +54,8 @@ params:
 subtitle: 'Version: `r params$version`'
 link-citations: yes
 csl: bmj.csl
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -63,6 +65,7 @@ csl: bmj.csl
 # install.packages("rJava") # Make sure rJava is configured: "R CMD javareconf"
 # install.packages("CirceR")
 # install.packages("SqlRender")
+# install.packages("readr")
 
 source("utils.R")
 knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
