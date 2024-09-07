@@ -136,7 +136,7 @@ Covariate balance (Standardized Mean Difference); <0.1
 Empirical Equipoise (Preference Score); >0.1
 Residual Bias (Expected Absolute Systematic Error (EASE)); <0.25
 Meta-analysis Heterogeneity; <0.4
-Meta-analysis Minimum Detectable Relative Risk (MDRR); <10
+Meta-analysis Minimum Detectable Relative Risk (MDRR); >0
 ")
 
 tab <- kable(abbreviations, col.names = NULL, linesep = "", booktabs = TRUE)
