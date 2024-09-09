@@ -17,8 +17,8 @@ Sys.setenv("_JAVA_OPTIONS"="-Xmx4g") # Sets the Java maximum heap space to 4GB
 Sys.setenv("VROOM_THREADS"=1) # Sets the number of threads to 1 to avoid deadlocks on file system
 
 ##=========== START OF INPUTS ==========
-cdmDatabaseSchema <- "cdm_truven_mdcr_v2886"
-workDatabaseSchema <- "scratch_asena5"
+cdmDatabaseSchema <- "merative_mdcr.cdm_merative_mdcr_v3045"
+workDatabaseSchema <- "scratch.scratch_asena5"
 outputLocation <- 'E:/git/ohdsi-studies/SemaglutideNaion'
 databaseName <- "Mdcr_441_test" # Only used as a folder name for results from the study
 minCellCount <- 5
@@ -27,12 +27,16 @@ cohortTableName <- "sema_naion_r441"
 # Create the connection details for your CDM
 # More details on how to do this are found here:
 # https://ohdsi.github.io/DatabaseConnector/reference/createConnectionDetails.html
+options(sqlRenderTempEmulationSchema = 'scratch.scratch_asena5')
 connectionDetails = DatabaseConnector::createConnectionDetails(
-  dbms = "redshift",
-  connectionString = keyring::key_get("redShiftConnectionStringOhdaMdcr", keyring="ohda"),
-  user = keyring::key_get("redShiftUserName", keyring="ohda"),
-  password = keyring::key_get("redShiftPassword", keyring="ohda")
+  dbms = "spark",
+  user = "token",
+  connectionString = keyring::key_get("dataBricksConnectionString", keyring="ohda"),
+  password = keyring::key_get("dataBricksPassword", keyring="ohda")
 )
+
+#conn <- DatabaseConnector::connect(connectionDetails)
+#DatabaseConnector::disconnect(conn)
 
 ##=========== END OF INPUTS ==========
 analysisSpecifications <- ParallelLogger::loadSettingsFromJson(

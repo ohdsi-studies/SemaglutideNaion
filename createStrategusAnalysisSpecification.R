@@ -448,9 +448,9 @@ analysisSpecifications <- Strategus::createEmptyAnalysisSpecificiations() |>
   Strategus::addSharedResources(negativeControlsShared) |>
   Strategus::addModuleSpecifications(cohortGeneratorModuleSpecifications) |>
   Strategus::addModuleSpecifications(characterizationModuleSpecifications) %>%
-  Strategus::addModuleSpecifications(cohortIncidenceModuleSpecifications) #%>%
-  #Strategus::addModuleSpecifications(cohortMethodModuleSpecifications) %>%
-  #Strategus::addModuleSpecifications(selfControlledModuleSpecifications)
+  Strategus::addModuleSpecifications(cohortIncidenceModuleSpecifications) %>%
+  Strategus::addModuleSpecifications(cohortMethodModuleSpecifications) %>%
+  Strategus::addModuleSpecifications(selfControlledModuleSpecifications)
 
 if (!dir.exists(rootFolder)) {
   dir.create(rootFolder, recursive = TRUE)
