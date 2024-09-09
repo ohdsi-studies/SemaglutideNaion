@@ -157,8 +157,8 @@ abbreviations <- readr::read_delim(col_names = FALSE, delim = ";", trim_ws = TRU
 
 Pre-exposure; >0.05
 Time Trend; >0.05
-EASE; <0.25
-Meta-analysis MDRR; <10
+Residual Bias (Expected Absolute Systematic Error (EASE)); <0.25
+Meta-analysis Minimum Detectable Relative Risk (MDRR); >0
 ")
 
 tab <- kable(abbreviations, col.names = NULL, linesep = "", booktabs = TRUE)
