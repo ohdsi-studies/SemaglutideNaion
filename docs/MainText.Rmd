@@ -60,7 +60,10 @@ NAION will have two definitions, one designed to be more specific and one design
     3. Exclude patients with 2 instances of GCA (any time before or after index date)
     4. Exclude patients with a diagnosis of traumatic optic neuropathy (before outcome start date)
 
+We will use the OHDSI open-source tool PheValuator to estimate the performance characteristics i.e., sensitivity, specificity, and positive (PPV) and negative (NPV) predictive value, of the two rule-based consortium developed definitions of NAION. PheValuator was designed to estimate the performance characteristics of phenotypes without the need for medical chart reviews. [CITATION] The tool uses mathematical models to estimate the probability that a subject has the outcome of interest, in this case, NAION.  The model is trained by comparing the characteristics, e.g., diagnosis codes, laboratory measurements, and drug prescriptions, of subjects with a high probability of having NAION to those with a low probability of having NAION. For example, subjects with 2 or more diagnosis codes for NAION on the same day have a high probability of having NAION and subjects with no diagnosis codes for NAION have a low probability of having NAION.  The model was developed using three prediction windows after the index (diagnosis) event: 1-10 days, 11-20 days, and 21-30 days post-index.  After the probabilistic model was developed, we applied the model to a large, randomly selected group of subjects from each database.  Using these probabilities, we estimated the performance of the phenotype algorithms.
+
 DR worsening is defined as:
+
 - New-onset PDR
 - Treatment-requiring DR/DME
     1. New exposure to anti-VEGF medication, procedure for focal laser photocoagulation, or panretinal photocoagulation
@@ -85,7 +88,7 @@ Negative controls will be picked to represent exposure-outcome pairs where no ca
 
 ## General
 
-Although the primary aim of this study is a comparative safety study, various standardized analytics available in the OHDSI community will be applied. The Strategus pipeline will be used to call various packages in the HADES library for A) data characterization (A1‑cohort diagnostics, A2‑cohort features, A3‑incidence rates, A4-time-to-event), B) population-level effect estimation (C1--comparative cohort study, C2‑‑self-controlled case-series).[@noauthor_ohdsistrategus_2024;@schuemie_health-analytics_2024]
+Various standardized analytics available in the OHDSI community will be applied. The Strategus pipeline will be used to call various packages in the HADES library for A) data characterization (A1‑cohort diagnostics, A2‑cohort features, A3‑incidence rates, A4-time-to-event), B) population-level effect estimation (C1--comparative cohort study, C2‑‑self-controlled case-series).[@noauthor_ohdsistrategus_2024;@schuemie_health-analytics_2024] The R package versioning history will be recorded using the renv file and stored in the study Github repository.
 
 ## Data Characterization
 
@@ -122,7 +125,7 @@ The SelfControlledCaseSeries and Cyclops packages in Hades will be used to estim
 # Study Diagnostics
 
 1. Preference score distributions to evaluate empirical equipoise and population generalizability
-2. Extensive patient characteristics to evaluate cohort balance before and after propensity score adjustment
+2. Cohort balance before and after PS adjustment, defined by the absolute standardized mean differences (SMDs) on extensive patient characteristics for each target-comparator-analysis
 3. Negative control calibration plots to assess residual bias
 4. Kaplan-Meier plots to examine hazard ratio proportionality assumptions
 
