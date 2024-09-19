@@ -88,7 +88,7 @@ Negative controls will be picked to represent exposure-outcome pairs where no ca
 
 ## General
 
-Various standardized analytics available in the OHDSI community will be applied. The Strategus pipeline will be used to call various packages in the HADES library for A) data characterization (A1‑cohort diagnostics, A2‑cohort features, A3‑incidence rates, A4-time-to-event), B) population-level effect estimation (C1--comparative cohort study, C2‑‑self-controlled case-series).[@noauthor_ohdsistrategus_2024; @schuemie_health-analytics_2024] The R package versioning history will be recorded using the renv file and stored in the study Github repository.
+Various standardized analytics available in the OHDSI community will be applied. The Strategus pipeline will be used to call various packages in the HADES library for A) data characterization (A1‑cohort diagnostics, A2‑cohort features, A3‑incidence rates, A4-time-to-event), B) population-level effect estimation (C1--comparative cohort study, C2‑‑self-controlled case-series).[@noauthor_ohdsistrategus_2024; @schuemie_health-analytics_2024] The R package versioning history will be recorded using the renv file and stored in the study Github repository.[@ushey_renv_2024]
 
 ## Data Characterization
 
