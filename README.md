@@ -1,7 +1,7 @@
 Estimation of risk of NAION and other vision disorders from exposure to semaglutide
 =============
 
-<img src="https://img.shields.io/badge/Study%20Status-Started-blue.svg" alt="Study Status: Started">
+<img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available">
 
 - Analytics use case(s): **Population-Level Estimation**
 - Study type: **Clinical Application**
@@ -12,7 +12,7 @@ Estimation of risk of NAION and other vision disorders from exposure to semaglut
 - Study end date: **-**
 - Protocol: **<a href="https://ohdsi-studies.github.io/SemaglutideNaion/protocol.html">HTML Document</a>**
 - Publications: **-**
-- Results explorer: **-**
+- Results explorer: **https://results.ohdsi.org/**
 
 OHDSI network study for population-level effect estimation of risk of NAION and other vision disorders from exposure to semaglutide.
 
